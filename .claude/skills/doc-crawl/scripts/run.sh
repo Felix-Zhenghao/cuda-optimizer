@@ -28,6 +28,22 @@ echo "Installing dependencies..."
 uv pip install --python "$VENV_DIR/bin/python" \
     requests beautifulsoup4 markdownify
 
+MERGE_SCRIPT="$SCRIPT_DIR/merge.py"
+
 # Run the crawler
 echo "Running doc crawler..."
 "$VENV_DIR/bin/python" "$PYTHON_SCRIPT" "$@"
+
+# Run merge on each top-level doc directory
+OUTPUT_DIR="doc"
+for arg in "$@"; do
+    case "$prev" in
+        -o|--output) OUTPUT_DIR="$arg" ;;
+    esac
+    prev="$arg"
+done
+
+echo "Running short doc merge..."
+for dir in "$OUTPUT_DIR"/*/; do
+    [ -d "$dir" ] && "$VENV_DIR/bin/python" "$MERGE_SCRIPT" "$dir"
+done

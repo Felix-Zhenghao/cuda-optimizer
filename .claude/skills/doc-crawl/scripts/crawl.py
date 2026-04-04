@@ -158,14 +158,6 @@ class DocCrawler:
         if not all_lis:
             return ("Documentation", [])
 
-        # Extract doc title from toctree-l1
-        doc_title = "Documentation"
-        l1_items = [li for li in all_lis if "toctree-l1" in li.get("class", [])]
-        if l1_items:
-            a = l1_items[0].find("a", recursive=False)
-            if a:
-                doc_title = a.get_text(strip=True)
-
         # Determine the level of each <li> item
         def get_level(li):
             for cls in li.get("class", []):
@@ -174,12 +166,35 @@ class DocCrawler:
                     return int(m.group(1))
             return 0
 
+        # Check if l1 items are the doc title or actual sections
+        l1_items = [li for li in all_lis if "toctree-l1" in li.get("class", [])]
+
+        if len(l1_items) == 1:
+            # Single l1 item = doc title; sections start at l2
+            doc_title = "Documentation"
+            a = l1_items[0].find("a", recursive=False)
+            if a:
+                doc_title = a.get_text(strip=True)
+            min_level = 2  # skip l1
+            base_parent_level = 1
+        else:
+            # Multiple l1 items = they ARE the sections; get doc title from page
+            doc_title = "Documentation"
+            title_tag = soup.find("title")
+            if title_tag:
+                raw = title_tag.get_text(strip=True)
+                raw = re.split(r"\s*[—–\-\|]\s*", raw)[0].strip()
+                if raw:
+                    doc_title = raw
+            min_level = 1  # include l1 items as sections
+            base_parent_level = 0
+
         # Parse items into list of (level, title, url)
         items = []
         for li in all_lis:
             level = get_level(li)
-            if level < 2:
-                continue  # Skip l1 (doc title)
+            if level < min_level:
+                continue
             a = li.find("a", recursive=False)
             if not a:
                 continue
@@ -209,7 +224,7 @@ class DocCrawler:
                     i += 1
             return children, i
 
-        sections, _ = build_tree(items, 0, 1)  # parent_level=1 since items start at l2
+        sections, _ = build_tree(items, 0, base_parent_level)
         return (doc_title, sections)
 
     def extract_content(self, soup):
