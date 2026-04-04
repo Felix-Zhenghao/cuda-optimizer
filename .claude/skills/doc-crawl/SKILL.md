@@ -37,3 +37,5 @@ Since all docs are converted from HTML to markdown, go through **all** documenta
 1. Write all summaries by first reading the doc content and then summarize by yourself. NEVER write script to do this.
 2. When fix format issues, you should read the whole doc content and fix them. Don't write python script to do this. You can fix during reading when summarizing things so you only need to read doc content once.
 3. DON'T BE LAZY. After you **have** read a doc, written the summary and fixed all format issues for this doc, add the doc dir name to the a tmp file. WHEN YOU THINK YOU HAVE COMPLETED ALL TASKS, ALAWYS CHECK THIS TMP FILE TO MAKE SURE ALL DOC FILES ARE ON IT.
+4. If user does not specify the output doc dir, search for it in this repo (depth=1). If there's doc dir in depth=1, create and use "/docs" by default.
+5. Launch parallel agents to accelerate summary writing and format issue fixing.
