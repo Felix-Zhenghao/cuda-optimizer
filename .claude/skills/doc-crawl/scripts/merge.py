@@ -166,7 +166,7 @@ def merge_group(group, parent_dir):
     (new_dir / "README.md").write_text(
         f"# {group_name}\n\n"
         f"Merged from: {titles[0]} to {titles[-1]}\n\n"
-        "(placeholder - 100-word summary goes here)\n"
+        "(placeholder - 50-word summary goes here)\n"
     )
 
     # Remove original directories
@@ -199,7 +199,7 @@ def merge_all_into_parent(leaves, parent_dir):
     # Rewrite README as leaf-level placeholder
     (parent_dir / "README.md").write_text(
         f"# {name_suffix(parent_dir.name)}\n\n"
-        "(placeholder - 100-word summary goes here)\n"
+        "(placeholder - 50-word summary goes here)\n"
     )
 
     print(f"  All {len(leaves)} docs merged into parent -> {parent_dir.name} is now a leaf")
@@ -214,10 +214,10 @@ def update_parent_readme(parent_dir):
     if not children:
         return
     parent_name = name_suffix(parent_dir.name)
-    readme = f"# {parent_name}\n\n(placeholder - 30-word summary goes here)\n\n## Contents\n\n"
+    readme = f"# {parent_name}\n\n"
     for child in children:
         child_name = name_suffix(child.name)
-        readme += f"- **{child_name}** — (placeholder - 30-word summary goes here)\n"
+        readme += f"- **{child_name}** — (placeholder - 20-word summary goes here)\n"
     (parent_dir / "README.md").write_text(readme)
 
 

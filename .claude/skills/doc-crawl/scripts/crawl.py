@@ -15,6 +15,7 @@ import argparse
 from copy import deepcopy
 import os
 import re
+import shutil
 import sys
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
@@ -356,6 +357,9 @@ class DocCrawler:
         for section in toc["sections"]:
             self._process_node(section, doc_dir)
 
+        # Collapse single-child directories
+        self._collapse_single_children(doc_dir)
+
         print("\nDone! Documentation saved to:", doc_dir)
 
     def _process_node(self, node, parent_dir, depth=0):
@@ -375,15 +379,11 @@ class DocCrawler:
 
         if node["children"]:
             # Non-leaf: write README with child listing, recurse into children
-            readme = (
-                f"# {title}\n\n"
-                "(placeholder - 50-word section summary goes here)\n\n"
-                "## Subsections\n\n"
-            )
+            readme = f"# {title}\n\n"
             for child in node["children"]:
                 readme += (
                     f"- **{child['title']}** — "
-                    "(placeholder - 50-word subsection summary goes here)\n"
+                    "(placeholder - 20-word summary goes here)\n"
                 )
             (node_dir / "README.md").write_text(readme)
 
@@ -394,8 +394,44 @@ class DocCrawler:
             self._crawl_page(node["url"], node_dir)
             (node_dir / "README.md").write_text(
                 f"# {title}\n\n"
-                "(placeholder - 200-word subsection summary goes here)\n"
+                "(placeholder - 50-word summary goes here)\n"
             )
+
+    def _collapse_single_children(self, root_dir):
+        """Collapse directories that have exactly one child subdirectory.
+
+        When a parent has only one child dir (and no doc.md of its own),
+        the child's contents are moved into the parent, eliminating the
+        unnecessary nesting level. Processes bottom-up so nested single-child
+        chains are fully collapsed.
+        """
+        all_dirs = sorted(
+            [d for d in root_dir.rglob("*") if d.is_dir()],
+            key=lambda d: len(d.parts),
+            reverse=True,
+        )
+
+        for dir_path in all_dirs:
+            if not dir_path.exists():
+                continue
+
+            child_dirs = [d for d in dir_path.iterdir() if d.is_dir() and d.name != "img"]
+            has_doc = (dir_path / "doc.md").exists()
+
+            if len(child_dirs) == 1 and not has_doc:
+                child = child_dirs[0]
+                print(f"Collapsing: {dir_path.name}/{child.name} -> {dir_path.name}")
+
+                for item in child.iterdir():
+                    dest = dir_path / item.name
+                    if dest.exists():
+                        if item.name == "README.md":
+                            dest.unlink()
+                        else:
+                            continue
+                    shutil.move(str(item), str(dest))
+
+                child.rmdir()
 
     def _extract_section_content(self, content, fragment):
         """Extract only the content for a specific fragment/anchor from a page.

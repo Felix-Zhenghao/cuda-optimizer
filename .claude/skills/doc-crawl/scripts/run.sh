@@ -34,14 +34,17 @@ MERGE_SCRIPT="$SCRIPT_DIR/merge.py"
 echo "Running doc crawler..."
 "$VENV_DIR/bin/python" "$PYTHON_SCRIPT" "$@"
 
-# Run merge on each top-level doc directory
-OUTPUT_DIR="doc"
+# Parse output dir from args (match crawl.py's argparse)
+OUTPUT_DIR=""
+prev=""
 for arg in "$@"; do
-    case "$prev" in
-        -o|--output) OUTPUT_DIR="$arg" ;;
-    esac
+    if [ "$prev" = "-o" ] || [ "$prev" = "--output" ]; then
+        OUTPUT_DIR="$arg"
+        break
+    fi
     prev="$arg"
 done
+[ -z "$OUTPUT_DIR" ] && OUTPUT_DIR="doc"
 
 echo "Running short doc merge..."
 for dir in "$OUTPUT_DIR"/*/; do

@@ -20,9 +20,9 @@ The goal is that contents can be progressively exposed to a user - a user will r
 
 Therefore, write READMEs according to these principles:
 
-1. In the non-leaf-level README, include a 30-word summary for all docs in the whole sub-tree first. Then, include a 30-word summary for each child node. As mentioned above, these concise summaries will be exposed to users so they can decide which child node doc to read. Therefore, provide key points of each child node doc concisely.
+1. In the non-leaf-level README include a 20-word summary for each child node. As mentioned above, these concise summaries will be exposed to users so they can decide which child node doc to read. Therefore, provide key points of each child node doc concisely.
 
-2. In the leaf-level README, write a 100-word summary. You can include more details so the user can finally decide whether to read this leaf doc.
+2. In the leaf-level README, write a 50-word summary. You can include more details so the user can finally decide whether to read this leaf doc.
 
 # Step 3: Check and fix format
 
@@ -37,5 +37,5 @@ Since all docs are converted from HTML to markdown, go through **all** documenta
 1. Write all summaries by first reading the doc content and then summarize by yourself. NEVER write script to do this.
 2. When fix format issues, you should read the whole doc content and fix them. Don't write python script to do this. You can fix during reading when summarizing things so you only need to read doc content once.
 3. DON'T BE LAZY. After you **have** read a doc, written the summary and fixed all format issues for this doc, add the doc dir name to the a tmp file. WHEN YOU THINK YOU HAVE COMPLETED ALL TASKS, ALAWYS CHECK THIS TMP FILE TO MAKE SURE ALL DOC FILES ARE ON IT.
-4. If user does not specify the output doc dir, search for it in this repo (depth=1). If there's doc dir in depth=1, create and use "/docs" by default.
+4. If target dir is not specified, prompt the user to fill in the dir to store the doc.
 5. Launch parallel agents to accelerate summary writing and format issue fixing.
