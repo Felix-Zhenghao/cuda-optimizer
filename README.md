@@ -1,3 +1,7 @@
+# Skills for agent-friendly documentation
+
+See example processed docs [here](https://github.com/Felix-Zhenghao/doc-for-agent/tree/main/doc).
+
 ## Motivation: Progressive Exposure
 
 It is impossible and inefficient to dump a large documentation (e.g., NVIDIA's PTX ISA at 14 sections, 700+ subsections) into an agent's context window. The doc-crawl skill organizes crawled docs into a tree where an agent can **drill down** level by level:
