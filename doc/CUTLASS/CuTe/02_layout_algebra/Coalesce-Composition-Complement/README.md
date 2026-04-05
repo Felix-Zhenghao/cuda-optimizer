@@ -1,0 +1,1 @@
+Describes three core Layout algebra operations: coalesce for simplifying layouts, functional composition for combining layouts, and complement for finding the 'rest' elements not covered by a layout. Includes by-mode variants and worked examples.

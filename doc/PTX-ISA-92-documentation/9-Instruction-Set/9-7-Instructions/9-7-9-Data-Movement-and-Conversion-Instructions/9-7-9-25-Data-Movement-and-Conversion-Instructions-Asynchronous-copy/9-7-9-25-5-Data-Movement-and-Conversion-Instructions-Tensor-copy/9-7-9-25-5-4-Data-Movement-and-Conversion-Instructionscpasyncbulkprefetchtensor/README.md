@@ -1,0 +1,1 @@
+Documents `cp.async.bulk.prefetch.tensor`, which hints the system to asynchronously prefetch multi-dimensional tensor data from global memory into L2 cache using a tensor-map object. Supports 1D-5D tensors, tile and im2col load modes, and cache-hint policy. Introduced PTX ISA 8.0; requires `sm_90`+.

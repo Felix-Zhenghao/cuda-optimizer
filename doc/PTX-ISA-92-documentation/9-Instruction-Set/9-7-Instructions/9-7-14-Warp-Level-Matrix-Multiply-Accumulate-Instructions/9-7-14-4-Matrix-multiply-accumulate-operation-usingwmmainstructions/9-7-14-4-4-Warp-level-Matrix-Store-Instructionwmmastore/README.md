@@ -1,0 +1,1 @@
+Documents wmma.store.d instruction for collectively writing the result matrix D to global/shared memory. Covers syntax for f16/f32/s32/f64 types and all supported shapes; stride, alignment, .sync/.aligned qualifiers, and PTX/target ISA version requirements.

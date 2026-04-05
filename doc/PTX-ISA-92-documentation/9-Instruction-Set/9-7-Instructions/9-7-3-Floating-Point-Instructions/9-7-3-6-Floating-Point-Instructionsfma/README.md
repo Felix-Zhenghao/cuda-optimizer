@@ -1,0 +1,1 @@
+The `fma` instruction computes a fused multiply-add (`d = a*b + c`) with no intermediate precision loss for `.f32`, `.f64`, and SIMD `.f32x2` types. A rounding modifier is required (no default). `fma.f64` is equivalent to `mad.f64`. The `.f32x2` variant requires `sm_100` or higher.

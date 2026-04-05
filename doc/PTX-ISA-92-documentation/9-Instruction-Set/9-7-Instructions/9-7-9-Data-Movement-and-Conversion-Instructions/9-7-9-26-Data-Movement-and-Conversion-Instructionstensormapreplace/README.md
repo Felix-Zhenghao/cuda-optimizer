@@ -1,0 +1,1 @@
+Documents `tensormap.replace`, which modifies a specific field of a 1024-bit tensor-map object in-place (in global or shared memory). Fields include global address, rank, box/global dimensions, strides, element type, interleave layout, swizzle mode/atomicity, and fill mode. Introduced PTX ISA 8.3; requires sm_90a or sm_100a and newer architectures.

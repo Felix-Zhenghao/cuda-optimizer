@@ -1,0 +1,1 @@
+Covers matrix shapes for tcgen05 MMA (M, N, K dimensions and architecture constraints) and data movement shapes for `tcgen05.ld`/`tcgen05.st` (`.32x32b`, `.16x64b`, `.16x128b`, `.16x256b`, `.16x32bx2`) including lane access patterns and per-lane data width.

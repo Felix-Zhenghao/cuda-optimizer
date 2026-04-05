@@ -1,0 +1,1 @@
+The `setmaxnreg` instruction hints to the system to increase (`.inc`) or decrease (`.dec`) the maximum per-thread register count for the executing warp from a CTA-level register pool. All warps in a warpgroup must execute the same `setmaxnreg` and synchronize afterwards. Operand must be 24-256, multiple of 8. Requires sm_90a/sm_100a and similar accelerator architectures.

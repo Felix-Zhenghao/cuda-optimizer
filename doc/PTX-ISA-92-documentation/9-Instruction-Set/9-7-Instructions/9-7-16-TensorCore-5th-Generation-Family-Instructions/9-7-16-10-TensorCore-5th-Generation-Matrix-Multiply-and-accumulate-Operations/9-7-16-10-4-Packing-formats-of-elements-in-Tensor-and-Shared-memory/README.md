@@ -1,0 +1,1 @@
+Describes element packing requirements for matrices in Tensor Memory and shared memory. Matrix D 16-bit elements are stored unpacked (one per 32-bit word). Matrix A/B elements with 4-bit and 6-bit floating-point types must be packed into 8-bit containers (4 elements per 32-bit word); packing requirements differ across MMA kinds and between Tensor Memory and shared memory.

@@ -1,0 +1,1 @@
+Covers match.sync (9.7.13.10) for broadcasting and comparing b32/b64 values across masked warp threads, returning bitmask of lanes with matching values; and activemask.b32 (9.7.13.11) for querying the set of currently active threads in the executing warp as a 32-bit lane mask.

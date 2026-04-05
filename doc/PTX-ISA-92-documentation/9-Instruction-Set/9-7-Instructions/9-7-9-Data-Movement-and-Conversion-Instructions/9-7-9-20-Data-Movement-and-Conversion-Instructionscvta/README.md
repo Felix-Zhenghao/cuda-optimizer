@@ -1,0 +1,1 @@
+Documents `cvta`, which converts addresses between state-space-specific form (const, global, local, shared, param) and generic form. Supports bidirectional conversion and can take generic addresses of variables directly. Introduced PTX ISA 2.0; requires `sm_20`+; cluster and param variants need `sm_90`+ and `sm_70`+.

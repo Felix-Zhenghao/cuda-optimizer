@@ -1,0 +1,1 @@
+Two-way SIMD integer video instructions operating on dual 16-bit half-words in parallel: `vadd2`, `vsub2` (add/subtract), `vavrg2` (average), `vabsdiff2` (absolute difference), `vmin2`, `vmax2` (min/max). Support half-word selection, saturation, secondary SIMD merge, or accumulate into `c`. Require `sm_30` or higher.

@@ -1,0 +1,1 @@
+Documents `ld.global.nc`, which loads from global state space via the non-coherent read-only cache (texture cache path). On architectures where the texture cache has higher bandwidth or larger capacity, this can outperform `ld.global`. Supports cache operators, eviction priority hints, prefetch size, cache-hint policy, and `.b128` type. Introduced PTX ISA 3.1; requires `sm_32`+.

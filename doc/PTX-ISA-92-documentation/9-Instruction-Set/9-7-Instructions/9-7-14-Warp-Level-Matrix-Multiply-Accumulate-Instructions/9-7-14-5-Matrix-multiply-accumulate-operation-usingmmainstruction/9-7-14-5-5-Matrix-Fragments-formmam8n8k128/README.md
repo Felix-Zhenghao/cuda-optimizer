@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m8n8k128 with single-bit b1 type. A and B each held in one b32 register (32 bit elements); accumulator in two s32 registers. Provides row/column index formulas using groupID and threadID_in_group.

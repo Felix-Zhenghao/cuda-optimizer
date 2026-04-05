@@ -1,0 +1,1 @@
+Comprehensive reference for the `ld` instruction, which loads a register from an addressable state space. Covers cache operators, eviction priority hints (L1/L2), prefetch size hints, memory ordering qualifiers (`.weak`, `.volatile`, `.relaxed`, `.acquire`), MMIO loads, vector loads (`.v2`/`.v4`/`.v8`), `.b128` type, and the `.unified` qualifier for unified address variables.

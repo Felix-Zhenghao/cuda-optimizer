@@ -1,0 +1,1 @@
+Describes the scale factor B matrix layout for block32 with K=96 (semantically equivalent to scale_vec::3X): three scale factors per row with block size 32, stored in 4-byte-aligned sub-columns of Tensor Memory. Shows sub-column selection for different SFB_ID values and N dimensions.

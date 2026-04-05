@@ -1,0 +1,1 @@
+Describes access restrictions for `tcgen05.ld`/`tcgen05.st`: each warp in a warpgroup can only access its assigned 32-lane chunk of Tensor Memory (warp 0: lanes 0-31, warp 1: lanes 32-63, etc.). Also covers optional pack (ld) and unpack (st) operations that pack/unpack two 16-bit chunks into/from a 32-bit register.

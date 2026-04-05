@@ -1,0 +1,1 @@
+Fragment layout for sparse mma.m16n8k16 with tf32: matrix A in four b32 registers with one non-zero tf32 element per 2-element chunk (2:4 sparsity at half granularity), with standard B and accumulator in four f32 registers.

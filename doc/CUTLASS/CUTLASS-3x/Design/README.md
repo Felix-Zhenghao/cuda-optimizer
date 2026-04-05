@@ -1,0 +1,1 @@
+Explains CUTLASS 3.0 design goals and architectural changes: adopting CuTe layouts and tensors as a single vocabulary type, reducing named types via tag-dispatch policies, detaching the GEMM hierarchy from hardware, and ensuring correctness by construction.

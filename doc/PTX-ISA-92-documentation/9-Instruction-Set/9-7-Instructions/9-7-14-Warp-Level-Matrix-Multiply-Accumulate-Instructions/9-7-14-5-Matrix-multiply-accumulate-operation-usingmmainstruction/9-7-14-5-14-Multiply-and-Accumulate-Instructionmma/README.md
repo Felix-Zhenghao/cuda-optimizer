@@ -1,0 +1,1 @@
+Full reference for the mma.sync instruction performing D = A * B + C at warp level. Covers all syntax variants: f16/bf16/tf32/f64 floating-point, fp8 (e4m3/e5m2/e3m2/e2m3/e2m1), block-scaled mxf8f6f4/mxf4/mxf4nvf4 variants, integer (u8/s8), sub-byte (u4/s4), and b1 types. Includes PTX ISA and SM target requirements.

@@ -1,0 +1,1 @@
+Covers tensor async copy instructions using tensor-map objects: restrictions on sub-byte/swizzle types; `cp.async.bulk.tensor` for global-to-shared N-D tensor copies; `cp.reduce.async.bulk.tensor` for async tensor reductions; `cp.async.bulk.prefetch.tensor` for L2 tensor prefetch.

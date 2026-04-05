@@ -1,0 +1,1 @@
+Release notes for CUTLASS 3.x versions (3.0 through 3.9.2), covering Hopper warp-specialized GEMMs, CuTe adoption, Blackwell SM100/SM120 support, sparse and blockscaled GEMM, distributed GEMM, FMHA kernels, and grouped GEMM enhancements.

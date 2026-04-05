@@ -1,0 +1,1 @@
+Documents `tcgen05.mma.ws.sp`, combining weight stationary convolution with sparse A matrix support. Matrix A is structured sparse (1:2 for tf32, 2:4 for f16/f8f6f4/i8); sparsity metadata is provided via Tensor Memory. Supports the same kinds as `tcgen05.mma.ws` plus zero-column mask and optional collector usage. Only `.cta_group::1` is supported.

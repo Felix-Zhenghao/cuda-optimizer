@@ -1,0 +1,1 @@
+Describes the 32-bit instruction descriptor encoding for tcgen05 MMA operations. Encodes matrix shapes (M, N), element types for A/B/D matrices, sparsity, transpose/negate flags, integer saturation, B-matrix reuse shift, and scale factor IDs for block-scaled variants (`.kind::mxf8f6f4`). Format varies by MMA kind.

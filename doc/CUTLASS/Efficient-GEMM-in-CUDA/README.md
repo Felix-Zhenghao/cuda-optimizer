@@ -1,0 +1,1 @@
+Explains CUTLASS's hierarchical GEMM implementation strategy mapping to CUDA's execution model: threadblock-level tiling for global memory, warp-level GEMM for shared memory, and thread-level operations for registers. Covers epilogue, pipelining, threadblock rasterization, split-K/sliced-K reductions, and Hopper warp specialization designs.

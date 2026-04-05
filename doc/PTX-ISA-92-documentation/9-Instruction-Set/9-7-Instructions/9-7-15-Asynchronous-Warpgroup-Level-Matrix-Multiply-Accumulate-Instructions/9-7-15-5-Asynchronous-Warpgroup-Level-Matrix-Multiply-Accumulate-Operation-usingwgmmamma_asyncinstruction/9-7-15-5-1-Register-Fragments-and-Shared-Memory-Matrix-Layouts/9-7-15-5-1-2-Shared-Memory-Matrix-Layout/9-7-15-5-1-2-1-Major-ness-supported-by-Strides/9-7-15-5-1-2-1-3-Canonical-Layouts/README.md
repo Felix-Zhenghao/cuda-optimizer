@@ -1,0 +1,1 @@
+Expresses canonical shared memory matrix layouts using CuTe notation for K-major and MN-major matrices with four swizzling modes (no-swizzle, 32B, 64B, 128B). Provides worked examples for tf32 K-major and bf16 MN-major layouts with exact LBO/SBO values and descriptor encodings. Swizzling modes map to CuTe Swizzle<0,4,3> through Swizzle<3,4,3>.

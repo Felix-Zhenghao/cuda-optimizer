@@ -1,0 +1,1 @@
+Documents current CuTe DSL limitations: static vs dynamic value handling, restricted return values from JIT functions, no dependent types, control flow constraints, limited OOP support, debugging limitations, and design limitations likely to remain.

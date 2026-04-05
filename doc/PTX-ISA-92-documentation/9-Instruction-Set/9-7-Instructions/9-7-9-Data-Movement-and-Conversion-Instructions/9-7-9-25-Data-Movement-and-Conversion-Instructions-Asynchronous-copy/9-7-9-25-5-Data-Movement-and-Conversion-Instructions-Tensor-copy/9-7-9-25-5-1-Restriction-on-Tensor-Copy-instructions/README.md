@@ -1,0 +1,1 @@
+Lists restrictions for tensor copy instructions involving sub-byte types (`.b4x16`, `.b4x16_p64`, `.b6x16_p32`, `.b6p2x16`), 96B and 128B swizzle modes, and architecture-specific limitations for `sm_120a` and `sm_103a`. Key constraints include alignment requirements, box-size restrictions, and unsupported operation/type combinations.

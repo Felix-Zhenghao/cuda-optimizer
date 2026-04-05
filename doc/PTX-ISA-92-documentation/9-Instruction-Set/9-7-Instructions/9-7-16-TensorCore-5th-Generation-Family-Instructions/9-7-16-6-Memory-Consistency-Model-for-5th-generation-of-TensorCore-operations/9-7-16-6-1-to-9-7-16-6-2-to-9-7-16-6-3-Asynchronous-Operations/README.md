@@ -1,0 +1,1 @@
+Classifies tcgen05 instructions into synchronous (alloc, dealloc, relinquish_alloc_permit, fence, wait, commit) and asynchronous (mma, cp, shift, ld, st) categories. Asynchronous instructions are not inherently ordered with respect to each other unless using pipelined pairing or explicit tcgen05.wait/commit mechanisms.

@@ -1,0 +1,1 @@
+Predicates can be computed using `and`, `or`, `xor`, `not`, and `mov`. No direct conversion between predicates and integers exists; use `setp` to generate predicates from integers and `selp` to generate integer values from predicates.

@@ -1,0 +1,1 @@
+Documents `cp.async`, a non-blocking instruction that asynchronously copies 4, 8, or 16 bytes from global to shared memory. Supports optional partial-copy via `src-size`, source-ignore flag, cache-hint policy, and L2 prefetch size hints. Completion is tracked via async-group or mbarrier mechanism. Introduced PTX ISA 7.0; requires `sm_80`+.

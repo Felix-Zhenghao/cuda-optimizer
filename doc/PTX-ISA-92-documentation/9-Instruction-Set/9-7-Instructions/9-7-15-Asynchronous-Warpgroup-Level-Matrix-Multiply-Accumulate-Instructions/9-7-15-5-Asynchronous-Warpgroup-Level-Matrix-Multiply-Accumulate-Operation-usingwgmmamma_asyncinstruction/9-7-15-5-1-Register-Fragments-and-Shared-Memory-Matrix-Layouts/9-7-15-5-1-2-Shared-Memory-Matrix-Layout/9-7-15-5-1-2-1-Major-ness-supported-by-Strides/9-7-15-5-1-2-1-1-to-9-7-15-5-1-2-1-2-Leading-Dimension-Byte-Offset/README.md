@@ -1,0 +1,1 @@
+Defines leading dimension byte offset (LBO) and stride dimension byte offset (SBO) for shared memory matrices used in `wgmma.mma_async`. For K-major matrices, LBO is the column offset in an 8x2 tile and SBO is the row-group offset. For MN-major, LBO is the 8-column offset and SBO is the row-group offset (or swizzle-size-dependent for swizzled layouts).

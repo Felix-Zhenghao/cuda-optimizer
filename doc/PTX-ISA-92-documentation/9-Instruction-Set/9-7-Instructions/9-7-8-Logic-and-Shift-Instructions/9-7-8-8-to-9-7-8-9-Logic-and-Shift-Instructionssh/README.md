@@ -1,0 +1,1 @@
+Covers `shl` (shift left, zero-fill on right) and `shr` (shift right, sign-fill for signed types or zero-fill for unsigned/bit-size). Both take a 32-bit unsigned shift amount and clamp shift distances exceeding register width. Destination and first source must match in size. Supported on all architectures since PTX ISA 1.0.

@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k32 with sub-byte integer types (u4/s4, e4m3/e5m2/e3m2/e2m3/e2m1). A held in two b32 registers (eight sub-elements each); accumulator in four s32/f32 registers. Provides row/column formulas for lane-based distribution.

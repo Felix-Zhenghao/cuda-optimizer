@@ -1,0 +1,1 @@
+Documents `tcgen05.mma.sp`, the sparse variant of tcgen05 MMA where matrix A is structured sparse. Supports the same floating-point kinds as `tcgen05.mma` (f16, tf32, f8f6f4, mxf8f6f4) plus sparse block-scaled variants. Requires a sparsity metadata Tensor Memory address (`sp-meta-tmem`) in addition to the standard descriptor arguments.

@@ -1,0 +1,1 @@
+Defines C++ tile iterator concepts used by CUTLASS 2.x algorithms, covering readable, writeable, forward, bidirectional, random access, contiguous memory, and masked iterator variants for traversing matrix and tensor tiles in memory.

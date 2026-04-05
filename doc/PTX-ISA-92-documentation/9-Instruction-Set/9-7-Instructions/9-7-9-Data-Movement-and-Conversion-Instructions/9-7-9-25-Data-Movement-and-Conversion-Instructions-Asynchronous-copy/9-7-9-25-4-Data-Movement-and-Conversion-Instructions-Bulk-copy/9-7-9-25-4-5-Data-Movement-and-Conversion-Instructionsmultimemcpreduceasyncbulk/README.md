@@ -1,0 +1,1 @@
+Documents `multimem.cp.reduce.async.bulk`, which asynchronously reduces shared memory data into each GPU memory location of a multimem destination address range. Supports integer and floating-point reduction operations, including no-FTZ variants for `.f16`/`.bf16`. Completion via bulk_group mechanism. Introduced PTX ISA 8.1; requires `sm_90`+.

@@ -1,0 +1,1 @@
+Documents Scale Factor B ID (SFB_ID) layouts in Tensor Memory for all scale vector sizes: scale_vec::1X/2X/4X with standard K values, block32 with K=96 (scale_vec::3X equivalent), and block16 with K=96 (scale_vec::6X equivalent). Each section shows sub-column selection diagrams for different SFB_ID values and N dimensions.

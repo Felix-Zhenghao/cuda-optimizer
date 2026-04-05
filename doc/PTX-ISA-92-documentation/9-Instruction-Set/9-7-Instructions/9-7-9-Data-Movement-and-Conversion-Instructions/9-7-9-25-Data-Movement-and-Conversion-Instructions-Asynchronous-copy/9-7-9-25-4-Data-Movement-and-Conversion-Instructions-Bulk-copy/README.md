@@ -1,0 +1,1 @@
+Covers bulk asynchronous copy instructions: `cp.async.bulk` for large transfers across memory spaces; `cp.reduce.async.bulk` for async reductions; `cp.async.bulk.prefetch` for L2 prefetching; `multimem.cp.async.bulk` and `multimem.cp.reduce.async.bulk` for multi-GPU multimem operations.

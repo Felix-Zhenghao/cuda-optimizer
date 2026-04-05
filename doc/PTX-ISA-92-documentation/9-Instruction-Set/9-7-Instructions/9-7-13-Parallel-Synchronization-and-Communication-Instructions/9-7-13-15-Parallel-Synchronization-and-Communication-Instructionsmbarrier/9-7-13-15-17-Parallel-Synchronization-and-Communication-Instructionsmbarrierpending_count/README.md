@@ -1,0 +1,1 @@
+Documents mbarrier.pending_count for extracting the pending arrival count from an opaque mbarrier state token. The state operand must come from a prior mbarrier.arrive.noComplete or mbarrier.arrive_drop.noComplete instruction; otherwise behavior is undefined.

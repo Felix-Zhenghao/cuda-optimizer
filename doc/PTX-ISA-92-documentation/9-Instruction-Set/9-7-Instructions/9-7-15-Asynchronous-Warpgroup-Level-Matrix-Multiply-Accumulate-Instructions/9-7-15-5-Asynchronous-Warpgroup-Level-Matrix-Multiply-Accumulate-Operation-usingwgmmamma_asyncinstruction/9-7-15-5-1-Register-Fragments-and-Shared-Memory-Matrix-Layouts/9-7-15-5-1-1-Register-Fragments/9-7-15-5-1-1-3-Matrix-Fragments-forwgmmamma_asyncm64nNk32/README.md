@@ -1,0 +1,1 @@
+Documents per-thread register fragments for `wgmma.mma_async` shape m64nNk32 (int8 u8/s8 or FP8 e4m3/e5m2 matrix A: four b32 registers with 16 elements). Accumulator D format depends on dtype: N/2 s32 registers, N/2 f32 registers, or N/4 f16x2 registers. Includes layout diagrams for thread-to-element distribution.

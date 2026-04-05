@@ -1,0 +1,1 @@
+Documents the vector-pack/unpack form of `mov` for bit-size types (`.b16`, `.b32`, `.b64`, `.b128`). Packs vector register elements into a scalar or unpacks a scalar into vector elements. The sink symbol `_` may discard elements. `.b128` support added in PTX ISA 8.3, requires `sm_70`.

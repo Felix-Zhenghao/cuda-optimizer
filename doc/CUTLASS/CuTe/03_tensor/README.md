@@ -1,0 +1,1 @@
+Describes CuTe's Tensor container composing Engine iterators with Layouts. Covers tensor creation (owning and nonowning), tagged memory iterators, element access, tiling, slicing, and inner/outer/thread-value partitioning patterns.

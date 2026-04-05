@@ -1,0 +1,1 @@
+A warpgroup is a set of four contiguous warps where the first warp's rank is a multiple of 4. The warp-rank is computed from thread indices as `(%tid.x + %tid.y * %ntid.x + %tid.z * %ntid.x * %ntid.y) / 32`. Warpgroups are the execution unit for `wgmma.mma_async` matrix operations.

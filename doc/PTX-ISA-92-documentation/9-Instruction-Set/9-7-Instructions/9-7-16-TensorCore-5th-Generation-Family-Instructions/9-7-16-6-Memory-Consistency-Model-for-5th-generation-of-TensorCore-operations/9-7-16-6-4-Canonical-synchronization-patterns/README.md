@@ -1,0 +1,1 @@
+Describes canonical synchronization patterns for tcgen05 async ordering: pipelined instructions on the same thread (inherent ordering for same-shape/same-accumulator MMA pairs) and non-pipelined patterns using explicit `tcgen05.wait::st` or `tcgen05.wait::ld` barriers between non-consecutive async operations.

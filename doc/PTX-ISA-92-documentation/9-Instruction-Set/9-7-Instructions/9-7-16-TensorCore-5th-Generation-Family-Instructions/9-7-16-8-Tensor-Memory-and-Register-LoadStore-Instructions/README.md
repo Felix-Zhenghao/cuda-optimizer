@@ -1,0 +1,1 @@
+Covers Tensor Memory load/store instructions: access restrictions (each warp accesses its 32-lane chunk), pack/unpack operations for 16-bit data; `tcgen05.ld` (async collective load with reduction variants); `tcgen05.st` (async collective store); and `tcgen05.wait::ld`/`tcgen05.wait::st` for synchronization.

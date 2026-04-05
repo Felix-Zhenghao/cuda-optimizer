@@ -1,0 +1,1 @@
+The `setp` instruction compares two values and writes predicate results to one or two destination predicate registers (p and optionally q=!p). Optionally combines with another predicate via Boolean operator. Supports all integer and floating-point types with ordered, unordered, and NaN-testing comparison operators.

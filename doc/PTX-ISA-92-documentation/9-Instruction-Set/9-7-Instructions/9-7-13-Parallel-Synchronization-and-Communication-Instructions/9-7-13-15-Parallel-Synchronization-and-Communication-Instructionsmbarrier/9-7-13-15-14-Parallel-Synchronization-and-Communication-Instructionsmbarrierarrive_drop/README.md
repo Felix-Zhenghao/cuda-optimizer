@@ -1,0 +1,1 @@
+Documents mbarrier.arrive_drop for arriving at an mbarrier while simultaneously decrementing its expected arrival count, allowing threads to opt out of future phases. Supports count, expect_tx, noComplete variants, and cluster-scope cross-CTA arrivals.

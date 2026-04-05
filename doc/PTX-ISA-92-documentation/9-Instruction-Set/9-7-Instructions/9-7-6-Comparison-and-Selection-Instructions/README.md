@@ -1,0 +1,3 @@
+- **9-7-6-1 `set`**: Compare two values and write integer (0/0xffffffff) or float (0.0/1.0) result, optionally combined with a predicate.
+- **9-7-6-2 `setp`**: Compare two values and write one or two predicate results (p and q=!p), optionally combined with another predicate.
+- **9-7-6-3/4 `selp`/`slct`**: Select between two source operands based on a predicate or the sign of a third operand.

@@ -1,0 +1,1 @@
+Explains CUTLASS grouped kernel schedulers that assign tiles from multiple problems to persistent threadblocks. Covers GEMM and Rank2K schedulers, device-only vs host-precompute modes, triangular matrix handling, and load balancing via problem sorting.

@@ -1,0 +1,1 @@
+Fragment layout for sparse mma.m16n8k16 with f16/bf16: matrix A stored in two b32 registers holding only the two non-zero elements per 4-element chunk, with B and accumulator using standard dense layouts.

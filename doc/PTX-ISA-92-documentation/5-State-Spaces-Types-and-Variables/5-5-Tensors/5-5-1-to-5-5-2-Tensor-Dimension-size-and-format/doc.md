@@ -1,0 +1,83 @@
+##### 5.5.1.1.1. [Padding and alignment of the sub-byte types](#tensor-dimension-size-format-sub-bytes-padding-align)
+
+The sub-byte types are expected to packed contiguously in the global memory and
+the Tensor copy instruction will expand them by appending empty spaces as shown below:
+
+1. Type `.b4x16`:
+   With this type, there is no padding involved and the packed sixteen `.b4` elements
+   in a 64-bits container is copied as is between the shared memory and the global memory.
+2. Type `.b4x16_p64`:
+   With this type, sixteen contiguous 4-bits of data is copied from global memory to the
+   shared memory with the append of 64-bits of padding as shown in
+   [Figure 5](#tensor-dimension-size-format-sub-bytes-padding-align-b4-16-p64)
+
+   ![_images/tensor-dimension-size-format-sub-bytes-padding-align-b4-16-p64.png](img/Figure-5-Layout-for-b4x16_p64.png)
+
+   *Figure 5 Layout for .b4x16\_p64*
+
+   The padded region that gets added is un-initialized.
+3. Type `.b6x16_p32`:
+   With this type, sixteen 6-bits of data is copied from global memory to the shared memory
+   with an append of 32-bits of padding as shown in
+   [Figure 6](#tensor-dimension-size-format-sub-bytes-padding-align-b6-16-p32)
+
+   ![_images/tensor-dimension-size-format-sub-bytes-padding-align-b6-16-p32.png](img/Figure-6-Layout-for-b6x16_p32.png)
+
+   *Figure 6 Layout for .b6x16\_p32*
+
+   The padded region that gets added is un-initialized.
+4. Type `.b6p2x16`:
+   With this type, sixteen elements, each containing 6-bits of data at the LSB and 2-bits
+   of padding at the MSB, are copied from shared memory into the global memory by discarding
+   the 2-bits of padding data and packing the 6-bits data contiguously as shown in
+   [Figure 7](#tensor-dimension-size-format-sub-bytes-padding-align-b6-p2-16)
+
+   ![_images/tensor-dimension-size-format-sub-bytes-padding-align-b6-p2-16.png](img/Figure-7-Layout-for-b6p2x16.png)
+
+   *Figure 7 Layout for .b6p2x16*
+
+In case of `.b6x16_p32` and `.b4x16_p64`, the padded region that gets added is
+un-initialized.
+
+The types `.b6x16_p32` and `.b6p2x16` share the same encoding value in the
+descriptor (value 15) as the two types are applicable for different types of
+tensor copy operations:
+
+| Type | Valid Tensor Copy Direction |
+| --- | --- |
+| `.b6x16_p32` | `.shared::cluster.global`, `.shared::cta.global` |
+| `.b6p2x16` | `.global.shared::cta` |
+
+---
+
+### 5.5.2. [Tensor Access Modes](#tensor-access-modes)
+
+Tensor data can be accessed in two modes:
+
+* Tiled mode:
+
+  In tiled mode, the source multi-dimensional tensor layout is preserved at the destination.
+* Im2col mode:
+
+  In im2col mode, the elements in the Bounding Box of the source tensor are rearranged into columns
+  at the destination. Refer [here](https://in.mathworks.com/help/images/ref/im2col.html) for more details.
+
+---
+
+### 5.5.6. [Interleave layout](#tensor-interleaved-layout)
+
+Tensor can be interleaved and the following interleave layouts are supported:
+
+* No interleave (NDHWC)
+* 8 byte interleave (NC/8DHWC8) : C8 utilizes 16 bytes in memory assuming 2B per channel.
+* 16 byte interleave (NC/16HWC16) : C16 utilizes 32 bytes in memory assuming 4B per channel.
+
+The *C* information is organized in slices where sequential C elements are grouped in 16 byte or 32
+byte quantities.
+
+If the total number of channels is not a multiple of the number of channels per slice, then the last
+slice must be padded with zeros to make it complete 16B or 32B slice.
+
+Interleaved layouts are supported only for the dimensionalities : 3D, 4D and 5D.
+
+The interleave layout is not supported for `.im2col::w` and `.im2col::w::128` modes.

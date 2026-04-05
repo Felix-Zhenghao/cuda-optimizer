@@ -1,0 +1,1 @@
+Documents CUTLASS fundamental numeric types (half_t, bfloat16_t, tfloat32_t, int4_t, various FP8/FP6/FP4 types, block-scaled MX types, complex) and container classes (Array, AlignedArray, AlignedBuffer, Coord, PredicateVector). Also covers NumericConverter for type conversion and functional operators like multiply_add.

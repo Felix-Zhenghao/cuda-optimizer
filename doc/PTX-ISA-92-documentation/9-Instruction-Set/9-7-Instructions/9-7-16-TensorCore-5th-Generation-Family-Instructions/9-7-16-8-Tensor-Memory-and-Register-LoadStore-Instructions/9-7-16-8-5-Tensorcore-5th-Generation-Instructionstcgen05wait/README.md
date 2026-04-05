@@ -1,0 +1,1 @@
+Documents `tcgen05.wait::ld` and `tcgen05.wait::st`, which block the executing thread until all prior `tcgen05.ld` or `tcgen05.st` operations respectively complete. Both require `.sync.aligned` qualifiers (all warp threads must execute together). Introduced PTX ISA 8.6; requires `sm_100a`/`sm_101a` and newer.

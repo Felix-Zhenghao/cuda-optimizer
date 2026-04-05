@@ -1,0 +1,1 @@
+The `add` instruction performs integer addition supporting scalar types (u16, u32, u64, s16, s32, s64) and packed SIMD types (u16x2, s16x2, u8x4, s8x4). Packed variants operate element-wise in parallel. Optional `.sat` modifier clamps results to prevent overflow. Introduced in PTX ISA 1.0; packed types added in 8.0 and 9.2.

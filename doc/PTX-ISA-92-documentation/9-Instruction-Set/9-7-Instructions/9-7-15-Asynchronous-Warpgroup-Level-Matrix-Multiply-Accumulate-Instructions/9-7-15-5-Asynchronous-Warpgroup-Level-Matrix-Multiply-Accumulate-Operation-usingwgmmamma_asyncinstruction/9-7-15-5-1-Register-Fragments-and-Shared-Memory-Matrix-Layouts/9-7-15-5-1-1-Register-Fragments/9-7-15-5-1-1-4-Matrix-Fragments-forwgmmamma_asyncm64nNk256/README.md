@@ -1,0 +1,1 @@
+Documents per-thread register fragments for `wgmma.mma_async` shape m64nNk256 (binary b1 matrix A: four b32 registers, each holding 32 binary elements, 128 total). Accumulator D holds N/2 s32 registers. Includes layout diagrams for thread-to-element distribution within a warpgroup.

@@ -1,0 +1,1 @@
+Documents vote.sync for synchronized predicate voting across a masked subset of warp threads. Supports .all (all true), .any (any true), .uni (uniform) modes and .ballot bitmask form with membermask operand. Executes after all masked threads arrive. Requires sm_70+.

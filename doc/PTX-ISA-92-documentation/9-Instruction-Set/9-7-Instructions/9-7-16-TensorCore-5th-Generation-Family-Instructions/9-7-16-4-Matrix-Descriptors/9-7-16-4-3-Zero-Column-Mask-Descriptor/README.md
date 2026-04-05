@@ -1,0 +1,1 @@
+Describes the 64-bit zero-column mask descriptor for `tcgen05.mma.ws`, which specifies which columns of matrix B are forced to zero during MMA. The descriptor encodes start counts, first-span bits, skip/use span counts, and a column shift. Sub-masks split the N dimension into 1, 2, or 4 segments depending on M (128, 64, 32 respectively).

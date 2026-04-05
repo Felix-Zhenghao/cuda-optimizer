@@ -1,0 +1,4 @@
+- **9-7-11-1 `suld`**: Load from surface memory with clamp handling for out-of-bounds coordinates.
+- **9-7-11-2 `sust`**: Store to surface memory with unformatted binary or formatted RGBA component stores.
+- **9-7-11-3 `sured`**: Atomic reduction (add/min/max/and/or) on surface memory.
+- **9-7-11-4 `suq`**: Query surface attributes (dimensions, channel format, array size, memory layout).

@@ -1,0 +1,1 @@
+Documents `cvt.pack`, which converts two 32-bit signed integers to a smaller integer type with saturation and packs the results into a 32-bit destination register. Optionally fills upper bits from operand `c`. Supports conversion to `.u2`, `.s2`, `.u4`, `.s4`, `.u8`, `.s8`, `.u16`, `.s16`. Introduced PTX ISA 6.5; requires `sm_72`+.

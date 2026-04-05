@@ -1,0 +1,1 @@
+Documents `tcgen05.ld`, an asynchronous collective warp-load from Tensor Memory into registers. Supports multiple shapes (`.16x64b`, `.16x128b`, `.16x256b`, `.32x32b`, `.16x32bx2`), repetition counts (`.x1` through `.x128`), optional 16-bit packing, and a float reduction variant with optional `.abs`/`.NaN` flags. Introduced PTX ISA 8.6.

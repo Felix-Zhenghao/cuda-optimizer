@@ -1,0 +1,1 @@
+CUTLASS C++ style guide covering formatting rules (spacing, line length, function declarations, if-else brackets), East const convention, pointer/reference alignment, naming conventions (CamelCase types, snake_case members), scoped enums, namespace organization, file naming, macro usage, CuTe layout comments, warning suppression strategies, and CUDA built-in variable guidelines.

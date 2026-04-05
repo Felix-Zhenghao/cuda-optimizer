@@ -1,0 +1,1 @@
+Release notes for CUTLASS 4.x versions (4.0 through 4.4.2), featuring the CuTe DSL with Python JIT compilation, Blackwell SM100/SM103 support, CUDA toolkit 13.1, experimental composable APIs, and cute.experimental higher-level abstractions.

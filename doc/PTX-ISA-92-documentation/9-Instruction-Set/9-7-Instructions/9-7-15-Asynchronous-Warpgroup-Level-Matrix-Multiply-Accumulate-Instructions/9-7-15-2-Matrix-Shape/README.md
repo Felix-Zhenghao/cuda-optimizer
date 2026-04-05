@@ -1,0 +1,1 @@
+Describes the supported MxNxK matrix shapes for `wgmma.mma_async` operations, where A is MxK, B is KxN, and D is MxN. M is always 64. Supported shapes vary by data type: k16 for f16/bf16, k8 for tf32, k32 for FP8/int8, k256 for binary (b1). N ranges from 8 to 256 in increments of 8 or 16.

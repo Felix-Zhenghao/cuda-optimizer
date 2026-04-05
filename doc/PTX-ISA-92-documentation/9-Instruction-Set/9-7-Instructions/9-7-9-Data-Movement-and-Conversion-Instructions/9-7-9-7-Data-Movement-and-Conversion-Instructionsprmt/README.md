@@ -1,0 +1,1 @@
+Documents the `prmt` instruction that permutes bytes from two 32-bit source registers into a 32-bit destination. In generic mode, a 16-bit control word selects any four of eight source bytes with optional sign extension. Six specialized modes (`.f4e`, `.b4e`, `.rc8`, `.ecl`, `.ecr`, `.rc16`) encode common permutation patterns. Requires `sm_20`+.

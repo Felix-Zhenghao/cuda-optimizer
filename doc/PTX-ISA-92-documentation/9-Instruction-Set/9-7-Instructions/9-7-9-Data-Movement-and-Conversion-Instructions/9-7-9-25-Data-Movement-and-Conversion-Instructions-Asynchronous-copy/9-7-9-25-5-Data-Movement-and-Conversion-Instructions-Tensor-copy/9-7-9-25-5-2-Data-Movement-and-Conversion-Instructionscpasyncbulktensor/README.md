@@ -1,0 +1,1 @@
+Documents `cp.async.bulk.tensor`, an async copy instruction for multi-dimensional tensor data between global and shared memory using a tensor-map object. Supports 1D-5D tensors, tile and im2col load modes, multicast to cluster shared memory, optional gather mode, and cache-hint policy. Introduced PTX ISA 8.0; requires `sm_90`+.

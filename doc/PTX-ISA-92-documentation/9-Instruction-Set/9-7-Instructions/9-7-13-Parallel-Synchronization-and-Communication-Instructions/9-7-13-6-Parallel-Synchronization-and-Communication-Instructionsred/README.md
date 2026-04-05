@@ -1,0 +1,1 @@
+Documents the red instruction for non-returning reduction operations on global/shared memory. Supports scalar types (b32/b64/u32/u64/s32/s64/f32/f64) and vector (f32 vector, f16/bf16 packed types), operations (and/or/xor, add/inc/dec, min/max), and .sem/.scope/.L2::cache_hint qualifiers.

@@ -1,0 +1,1 @@
+Guide for building CUTLASS with Clang as host compiler and NVCC as device compiler. Lists prerequisites (Clang 17 recommended, CUDA 12.2), required Ubuntu packages, and essential CMake options CMAKE_CXX_COMPILER and CMAKE_CUDA_HOST_COMPILER that must both be set.

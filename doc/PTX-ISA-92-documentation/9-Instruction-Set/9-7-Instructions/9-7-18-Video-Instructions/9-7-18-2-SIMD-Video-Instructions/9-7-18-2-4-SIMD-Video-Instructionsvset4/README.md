@@ -1,0 +1,1 @@
+The `vset4` instruction performs four-way SIMD parallel comparison of quad byte integer elements using comparison operators (eq, ne, lt, le, gt, ge). Results are always unsigned. Supports secondary SIMD merge or byte-level accumulate into operand `c`. Requires `sm_30` or higher.

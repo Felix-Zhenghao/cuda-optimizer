@@ -1,0 +1,1 @@
+Defines comparison operators for signed integers (`eq`, `ne`, `lt`, `le`, `gt`, `ge`), unsigned integers (`eq`, `ne`, `lo`, `ls`, `hi`, `hs`), and bit-size types (`eq`, `ne` only). Ordering comparisons are not defined for bit-size types. A reference table covers all operator meanings.

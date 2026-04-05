@@ -1,0 +1,1 @@
+The `div` instruction divides floating-point values with three modes: fast approximate (`div.approx`), full-range approximate (`div.full`), and IEEE 754 compliant with explicit rounding (`div.rnd`). Supports `.f32` and `.f64`. Compliant `.rnd` for `.f32` requires `sm_20` or higher.

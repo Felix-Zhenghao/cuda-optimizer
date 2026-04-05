@@ -1,0 +1,1 @@
+Covers two cluster-related address mapping instructions: `mapa`, which maps a shared memory address from the executing CTA to the corresponding address in a target CTA (specified by rank), and `getctarank`, which retrieves the CTA rank corresponding to a given shared memory address. Both introduced PTX ISA 7.8; require `sm_90`+.

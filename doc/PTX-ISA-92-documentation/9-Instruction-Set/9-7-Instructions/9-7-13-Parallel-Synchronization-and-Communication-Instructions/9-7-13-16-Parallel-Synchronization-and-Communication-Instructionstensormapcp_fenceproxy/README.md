@@ -1,0 +1,1 @@
+Documents tensormap.cp_fenceproxy, a fused copy-and-fence instruction that copies 128 bytes from shared::cta to global memory and establishes a uni-directional proxy release fence ordering the copy before subsequent tensormap proxy accesses at the destination. Requires sm_90+.

@@ -1,0 +1,1 @@
+The `vmad` instruction computes integer multiply-accumulate (`(a*b) + c`) on byte/half-word/word subword elements, supporting optional operand negation, plus-one mode (`.po`) for averaging, right-shift scaling (`.shr7`, `.shr15`), and saturation. Handles mixed signed/unsigned operand combinations. Requires `sm_20` or higher.

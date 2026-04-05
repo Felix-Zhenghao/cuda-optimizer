@@ -1,0 +1,1 @@
+Introduces Blackwell SM100 tcgen05.mma instructions, block scaled GEMMs with scale factors, narrow precision data types (4/6/8-bit), and valid data type, alignment, and layout combinations for legacy and narrow precision MMAs.

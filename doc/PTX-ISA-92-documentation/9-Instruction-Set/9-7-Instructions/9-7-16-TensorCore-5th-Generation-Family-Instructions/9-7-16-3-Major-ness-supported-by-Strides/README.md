@@ -1,0 +1,1 @@
+Documents shared memory layout strides for tcgen05: leading dimension stride (relative offset or absolute address) and stride dimension offset for K-major and MN-major layouts with or without swizzling, plus canonical CuTe layout expressions with worked examples for tf32 and bf16 element types.

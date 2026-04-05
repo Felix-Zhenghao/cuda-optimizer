@@ -1,0 +1,1 @@
+Documents red.async for asynchronous reductions to shared::cluster memory within a cluster, tracking completion via an mbarrier. Supports inc/dec (u32), min/max (u32/s32), and/or/xor (b32), and add (u32/s32/u64/f32/f64/f16/f16x2/bf16/bf16x2) operations with .mbarrier::complete_tx::bytes completion. Requires sm_90+.

@@ -1,0 +1,1 @@
+The `sust` instruction stores data to surface memory using surface coordinates. Supports unformatted binary stores (`sust.b`) and formatted stores (`sust.p`) where RGBA components are converted to surface format. Supports 1D, 2D, 3D, and array geometries with out-of-bounds handling via `.trap`, `.clamp`, or `.zero`. Cache operations and indirect access require sm_20.

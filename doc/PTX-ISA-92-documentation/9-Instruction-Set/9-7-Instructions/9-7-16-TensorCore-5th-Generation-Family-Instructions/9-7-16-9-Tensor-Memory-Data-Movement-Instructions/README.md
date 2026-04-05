@@ -1,0 +1,1 @@
+Covers Tensor Memory data movement: optional decompression of 4-bit and 6-bit floating-point to 8-bit during copy; `tcgen05.cp` (async shared-to-Tensor Memory copy with optional decompression and multicast); and `tcgen05.shift.down` (async row shift within Tensor Memory).

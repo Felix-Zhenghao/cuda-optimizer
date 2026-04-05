@@ -1,0 +1,1 @@
+Describes machine-specific semantics of 16-bit PTX code: on 32-bit GPU hardware, 16-bit registers are promoted to 32-bit, potentially exposing extra precision bits. Portable 16-bit semantics require explicit masking, incurring a performance penalty. The PTX spec intentionally leaves 16-bit semantics machine-dependent for performance.

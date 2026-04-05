@@ -1,0 +1,1 @@
+The `lop3` instruction computes an arbitrary 3-input bitwise logical operation on b32 values. The operation is specified by an 8-bit lookup table value `immLut` (0-255), encoding any of 256 possible logic functions. Optionally combines the result with a predicate using a Boolean operator. Requires sm_50; Boolean qualifier requires sm_70.

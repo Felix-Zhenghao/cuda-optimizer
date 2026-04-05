@@ -1,0 +1,1 @@
+Describes structured sparse matrix A storage for `wgmma.mma_async.sp`. For f16/bf16 shapes (k32), sparsity is 2:4 (two zeros per four elements); for tf32 (k16), sparsity is 1:2. For FP8/integer (k64), sparsity is 2:4. Non-zero element positions are encoded in a metadata operand; a sparsity selector specifies which thread-pair holds the metadata.

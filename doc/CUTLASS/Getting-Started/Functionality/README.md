@@ -1,0 +1,1 @@
+Comprehensive tables of supported CUTLASS kernel configurations organized by opcode class (Simt, TensorOp, SpTensorOp, WmmaTensorOp), compute capability, data types, and layouts. Covers CUTLASS 3.x and 2.x device-level GEMM, implicit GEMM convolution, warp-level matrix multiply shapes, and shared memory layout mappings.

@@ -1,0 +1,1 @@
+Defines supported MxNxK matrix shapes for wmma and mma instructions across data types including floating-point (f16, bf16, tf32, f64, e4m3/e5m2/e3m2/e2m3/e2m1), integer (u8/s8), sub-byte (u4/s4), and single-bit (b1), covering dense, sparse, and sparse-with-ordered-metadata variants with PTX ISA version requirements.

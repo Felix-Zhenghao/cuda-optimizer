@@ -1,0 +1,1 @@
+Documents `st.bulk`, which initializes a region of shared memory to zero. The `size` operand (must be a multiple of 8, max 16 MB) specifies bytes to initialize; only `initval=0` is supported. Introduced PTX ISA 8.6; requires `sm_100` or higher.

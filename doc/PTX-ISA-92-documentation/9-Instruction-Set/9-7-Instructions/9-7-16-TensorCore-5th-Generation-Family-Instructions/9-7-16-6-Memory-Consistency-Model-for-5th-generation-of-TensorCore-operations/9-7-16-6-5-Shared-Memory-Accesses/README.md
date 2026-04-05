@@ -1,0 +1,1 @@
+Notes that `tcgen05.mma` and `tcgen05.cp` perform shared memory accesses through the asynchronous proxy. Cross-proxy synchronization between the generic proxy and the async proxy requires `fence.proxy.async`.

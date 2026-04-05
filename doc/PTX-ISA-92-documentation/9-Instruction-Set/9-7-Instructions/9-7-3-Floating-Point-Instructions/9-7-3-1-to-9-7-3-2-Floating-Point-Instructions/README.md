@@ -1,0 +1,1 @@
+The `testp` instruction tests floating-point properties (finite, infinite, NaN, normal, subnormal) and returns a predicate. The `copysign` instruction copies the sign bit from one operand to another. Both operate on `.f32` and `.f64` types, introduced in PTX ISA 2.0, requiring `sm_20` or higher.

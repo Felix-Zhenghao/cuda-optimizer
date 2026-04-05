@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k8 with f16/bf16, tf32, and f64 types. Details fragment register count and element packing, and row/column computation formulas for each sub-type and matrix role across warp lanes.

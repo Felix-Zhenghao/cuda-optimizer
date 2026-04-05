@@ -1,0 +1,1 @@
+Describes the scale factor B matrix layout for block16 with K=96 (semantically equivalent to scale_vec::6X): six scale factors per row with block size 16, stored in 4-byte-aligned sub-columns. Shows sub-column selection for different SFB_ID values for both N<=128 and N>128 configurations.

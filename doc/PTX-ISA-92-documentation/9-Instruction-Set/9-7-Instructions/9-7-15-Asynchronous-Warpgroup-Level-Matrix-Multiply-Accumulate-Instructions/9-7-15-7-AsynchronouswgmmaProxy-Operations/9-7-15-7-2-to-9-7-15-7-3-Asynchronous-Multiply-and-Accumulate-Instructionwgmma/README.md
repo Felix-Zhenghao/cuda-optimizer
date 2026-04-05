@@ -1,0 +1,1 @@
+The `wgmma.commit_group` instruction batches all prior uncommitted `wgmma.mma_async` operations into a new wgmma-group for synchronization. The `wgmma.wait_group N` instruction waits until only N or fewer wgmma-groups remain pending, blocking until prior groups complete. Together they enable pipelined async warpgroup MMA. Both require `sm_90a`.

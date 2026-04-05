@@ -1,0 +1,3 @@
+- **9-7-12-1 to 4**: Fundamental control: `{}` (grouping/scoping), `@` (predicated execution), `bra` (branch), `brx.idx` (indexed branch).
+- **9-7-12-5 `call`**: Function call supporting direct and indirect (pointer-based) invocation with optional ABI or target-list information.
+- **9-7-12-6/7 `ret`/`exit`**: `ret` returns from a function; `exit` terminates a thread.

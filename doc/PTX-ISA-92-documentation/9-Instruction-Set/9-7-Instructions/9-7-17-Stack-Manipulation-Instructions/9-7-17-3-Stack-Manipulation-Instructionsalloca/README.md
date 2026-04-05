@@ -1,0 +1,1 @@
+The `alloca` instruction dynamically allocates memory on the current function's stack frame, updating the stack pointer and returning a pointer to local memory usable with `ld.local`/`st.local`. Memory is deallocated on function exit or explicitly via `stacksave`/`stackrestore`. Optional alignment (power of 2, max 2^23, default 8 bytes). Requires sm_52.

@@ -1,0 +1,1 @@
+Setup instructions for IDE intellisense with CUTLASS development. Covers VSCode configuration (include paths, C++17 standard, preprocessor defines) and clangd language server setup (global and per-project config with CUDA architecture flags). Includes note on compile_commands.json limitations with NVCC projects.

@@ -1,0 +1,1 @@
+Describes CUTLASS 2.x layout and tensor design patterns: the Layout concept for mapping logical index spaces to memory offsets, TensorRef for unbounded tensor references, TensorView for bounded tensors, and an appendix of existing layout types.

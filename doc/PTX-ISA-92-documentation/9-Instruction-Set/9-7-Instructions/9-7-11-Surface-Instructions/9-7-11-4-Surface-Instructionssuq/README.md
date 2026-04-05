@@ -1,0 +1,1 @@
+The `suq` instruction queries surface attributes: width, height, depth (in elements), channel data type and order, array size, and memory layout (linear or tiled). Operand is a `.surfref` variable or `.u64` register. Supports indirect access for sm_20+. All architectures supported since PTX ISA 1.5.

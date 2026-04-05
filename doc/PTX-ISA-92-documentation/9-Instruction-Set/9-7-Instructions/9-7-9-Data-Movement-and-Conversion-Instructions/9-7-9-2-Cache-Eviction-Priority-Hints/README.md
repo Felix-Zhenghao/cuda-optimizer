@@ -1,0 +1,1 @@
+Describes optional cache eviction priority hints added in PTX ISA 7.4 for `ld`/`st` on `.global` space (`sm_70`+). Five priorities: `evict_normal` (default), `evict_first` (streaming), `evict_last` (persistent), `evict_unchanged` (no change), and `no_allocate` (bypass cache). These are performance hints only and do not affect memory consistency.

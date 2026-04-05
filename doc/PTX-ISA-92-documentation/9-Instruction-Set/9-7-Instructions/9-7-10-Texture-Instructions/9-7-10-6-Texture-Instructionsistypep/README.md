@@ -1,0 +1,1 @@
+The `istypep` instruction queries whether a `.u64` register address points to an opaque variable of a specified type (`.texref`, `.samplerref`, or `.surfref`), writing 1 or 0 to a predicate register. Introduced in PTX ISA 4.0, requires sm_30 or higher.

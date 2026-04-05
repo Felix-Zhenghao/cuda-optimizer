@@ -1,0 +1,1 @@
+This section describes the general format of PTX instruction descriptions: instructions have 0-4 operands with an optional guard predicate. Destinations use `d`, sources use `a`, `b`, `c`. The `setp` instruction can write two destinations separated by `|`. Thread divergence in control constructs is discussed, with `.uni` marking non-divergent branches.

@@ -1,0 +1,1 @@
+Describes the layout of the scale factor B matrix in Tensor Memory for `scale_vec::1X` (K=32/64, one scale per row, byte-aligned), `scale_vec::2X` (K=64/128, two scales per row, half-word-aligned), and `scale_vec::4X` (K=64/128, four scales per row, word-aligned). The SFB_ID field selects which sub-columns to use.

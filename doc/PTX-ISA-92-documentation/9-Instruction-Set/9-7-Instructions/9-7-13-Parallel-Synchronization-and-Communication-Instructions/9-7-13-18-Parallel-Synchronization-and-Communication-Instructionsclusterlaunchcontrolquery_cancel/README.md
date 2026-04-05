@@ -1,0 +1,1 @@
+Documents clusterlaunchcontrol.query_cancel for decoding the opaque response written by try_cancel. Supports is_canceled predicate query and get_first_ctaid queries (full v4.b32 or per-dimension ::x/::y/::z) to extract the CTA ID of the successfully canceled cluster. Requires sm_100+.

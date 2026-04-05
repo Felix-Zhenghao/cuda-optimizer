@@ -1,0 +1,1 @@
+Explains shared memory layout and swizzling for tcgen05 MMA B matrix (K-major for non-transposed, MN-major for transposed). Matrices are composed of swizzle layout atoms; supported swizzle modes include no-swizzling, 32B, 64B, and 128B with various swizzle atomicity values. Provides layout tables for each swizzle atom configuration.

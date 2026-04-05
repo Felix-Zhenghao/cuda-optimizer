@@ -1,0 +1,8 @@
+- **Build**: Build instructions for different platforms and compilers including Windows/Visual Studio and Clang host compiler setups.
+- **Functionality**: Comprehensive tables of supported CUTLASS kernel configurations by opcode class, data types, layouts, and architectures.
+- **Fundamental-Types**: CUTLASS numeric types (half, bfloat16, FP8, etc.), container classes (Array, AlignedBuffer), and conversion operators.
+- **GEMM-Heuristics**: Experimental analytical heuristic for ranking GEMM kernels by estimated performance to reduce autotuning search space.
+- **IDE-Setup**: IDE configuration for CUTLASS development with VSCode and clangd, including intellisense and preprocessor settings.
+- **Programming-Guidelines**: C++ programming guidelines covering design patterns, style conventions, naming rules, and CUTLASS-specific idioms.
+- **Quickstart**: Step-by-step guide for building CUTLASS, running the profiler, executing tests, and launching GEMM kernels.
+- **Terminology**: Glossary of CUTLASS terms including CuTe types, GPU programming concepts, and deprecated 2.x abstractions.

@@ -1,0 +1,1 @@
+Describes the data movement shapes for `tcgen05.ld`/`tcgen05.st`: `.32x32b` (accesses 32 lanes), `.16x64b` (16 lanes), `.16x128b` (16 lanes), `.16x256b` (16 lanes), and `.16x32bx2` (16 lanes with split offset). Each shape determines which Tensor Memory lanes are accessed and how many bits per lane per `.num` multiplier are transferred.

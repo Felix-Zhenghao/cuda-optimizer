@@ -1,0 +1,1 @@
+Documents cp.async.mbarrier.arrive for linking previously initiated cp.async operations to an mbarrier object's completion tracking, triggering a system-managed arrive-on upon completion. Optional .noinc prevents decrement of expected count; .shared state space required.

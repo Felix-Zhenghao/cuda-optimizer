@@ -1,0 +1,6 @@
+- **9-7-1-1 `add`**: Integer addition with optional saturation; supports packed SIMD types u16x2, s16x2, u8x4, s8x4.
+- **9-7-1-2 to 11**: Core arithmetic: `sub`, `mul` (.hi/.lo/.wide), `mad`, `mul24`, `mad24`, `sad`, `div`, `rem`, `abs`, `neg`.
+- **9-7-1-12 `min`**: Find minimum with optional `.relu` clamp; supports packed SIMD types.
+- **9-7-1-13 `max`**: Find maximum with optional `.relu` clamp; supports packed SIMD types.
+- **9-7-1-14 to 23**: Bit operations: `popc`, `clz`, `bfind`, `fns`, `brev`, `bfe`, `bfi`, `szext`, `bmsk`, `dp4a`.
+- **9-7-1-24 `dp2a`**: Two-way 16-bit-to-8-bit dot product accumulated to 32 bits.

@@ -1,0 +1,1 @@
+Documents `cp.async.bulk`, a non-blocking bulk async copy instruction supporting global-to-shared, shared-to-global, shared-to-shared cluster, and global-to-global transfers. Completion is tracked via mbarrier or bulk_group mechanism. Supports multicast to cluster shared memory, out-of-bounds control, and cache-hint policy. Introduced PTX ISA 8.0; requires `sm_90`+.

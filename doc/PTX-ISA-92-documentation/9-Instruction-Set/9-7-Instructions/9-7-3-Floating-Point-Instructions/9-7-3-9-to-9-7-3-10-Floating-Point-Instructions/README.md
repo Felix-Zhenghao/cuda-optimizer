@@ -1,0 +1,1 @@
+The `abs` instruction computes absolute value and `neg` negates a floating-point value, both for `.f32` and `.f64` types with optional `.ftz` to flush subnormals. NaN inputs yield unspecified NaN for `.f32`; for `.f64`, `abs` passes NaN through unchanged. Both introduced in PTX ISA 1.0.

@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m8n8k4 with f64 type. Each thread holds one f64 element of A and B (single register each) and two f64 accumulator elements; provides row/column formulas based on laneid grouping.

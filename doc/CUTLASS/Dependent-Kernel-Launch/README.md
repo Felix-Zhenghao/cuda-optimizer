@@ -1,0 +1,1 @@
+Describes Programmatic Dependent Launch (PDL) on Hopper and Blackwell, enabling overlapping kernel execution in the same CUDA stream. Covers CUTLASS build flags, runtime API usage, and model-aware weight prefetch optimizations.

@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k4 with tf32 and f64 types. A held in two registers, B in one register, accumulator in four registers. Details row/column formulas for groupID-based lane distribution for both tf32 and f64 sub-types.

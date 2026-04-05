@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m8n8k16 with u8/s8 integer type. A and B each held in one b32 register (four packed elements); accumulator C/D held in two s32 registers. Provides row/column formulas based on groupID and threadID_in_group.

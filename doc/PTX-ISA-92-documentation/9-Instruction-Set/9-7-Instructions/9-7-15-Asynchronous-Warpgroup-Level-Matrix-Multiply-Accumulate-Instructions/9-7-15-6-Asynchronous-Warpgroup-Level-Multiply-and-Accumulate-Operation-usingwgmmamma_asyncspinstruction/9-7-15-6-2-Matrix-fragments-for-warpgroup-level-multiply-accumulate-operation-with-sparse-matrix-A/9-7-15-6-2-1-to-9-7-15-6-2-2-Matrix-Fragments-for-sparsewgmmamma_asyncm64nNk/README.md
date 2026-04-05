@@ -1,0 +1,1 @@
+Documents per-thread register fragments for sparse `wgmma.mma_async` shapes: m64nNk32 (f16/bf16 matrix A: four b32 registers holding two non-zero elements each, 8 non-zero total) and m64nNk16 (tf32 matrix A: four b32 registers holding four non-zero elements out of eight). Also details metadata layout encoding non-zero indices in 2-bit or 4-bit vectors per chunk.

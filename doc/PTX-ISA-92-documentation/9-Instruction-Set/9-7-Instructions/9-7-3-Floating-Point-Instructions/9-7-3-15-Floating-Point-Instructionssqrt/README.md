@@ -1,0 +1,1 @@
+The `sqrt` instruction computes the square root of a floating-point value for `.f32` and `.f64`, with fast approximate (`sqrt.approx`) and IEEE 754 compliant rounding modes. The `.approx.f32` variant has maximum relative error of 2^-23. Compliant rounding for `.f32` requires `sm_20` or higher.

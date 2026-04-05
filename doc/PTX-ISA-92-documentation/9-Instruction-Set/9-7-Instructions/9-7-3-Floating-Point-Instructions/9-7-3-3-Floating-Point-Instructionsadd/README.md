@@ -1,0 +1,1 @@
+The `add` instruction adds two floating-point values for `.f32`, `.f64`, and SIMD `.f32x2` types, supporting rounding modifiers (`.rn`, `.rz`, `.rm`, `.rp`), flush-to-zero (`.ftz`), and saturation (`.sat`). The `.f32x2` variant operates on two packed f32 values in parallel, requiring `sm_100` or higher.

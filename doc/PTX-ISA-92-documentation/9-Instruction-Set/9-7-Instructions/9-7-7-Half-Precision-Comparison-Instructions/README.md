@@ -1,0 +1,2 @@
+- **9-7-7-1 `set` (half-precision)**: Compare f16/bf16 or packed f16x2/bf16x2 values, writing results to half-precision or integer destinations.
+- **9-7-7-2 `setp` (half-precision)**: Compare f16/bf16/f16x2/bf16x2 values, writing predicate register results with support for packed comparisons.

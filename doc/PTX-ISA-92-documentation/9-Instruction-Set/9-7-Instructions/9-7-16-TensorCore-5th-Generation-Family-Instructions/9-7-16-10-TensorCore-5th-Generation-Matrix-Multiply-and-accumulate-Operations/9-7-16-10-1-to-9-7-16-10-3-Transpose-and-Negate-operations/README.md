@@ -1,0 +1,1 @@
+Documents transpose and negate operation support for tcgen05 MMA matrix A and B. Transpose and negate are supported across all MMA kinds except `.kind::mxf4`/`.kind::mxf4nvf4` which do not support transpose. `.kind::i8` does not support negate. Additional restrictions apply for 128B swizzle mode with 32B atomicity.

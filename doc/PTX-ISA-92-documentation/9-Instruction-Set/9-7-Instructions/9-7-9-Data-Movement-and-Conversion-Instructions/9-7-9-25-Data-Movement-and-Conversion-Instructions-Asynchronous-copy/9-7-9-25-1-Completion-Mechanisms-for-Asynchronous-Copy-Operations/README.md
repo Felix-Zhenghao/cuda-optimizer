@@ -1,0 +1,1 @@
+Explains the two completion mechanisms for async copy operations: the async-group mechanism (per-thread commit/wait groups for non-bulk copies) and the mbarrier-based mechanism (tracking completion of one or more async operations through an mbarrier object's current phase). For bulk operations, mbarrier must be specified in the instruction itself.

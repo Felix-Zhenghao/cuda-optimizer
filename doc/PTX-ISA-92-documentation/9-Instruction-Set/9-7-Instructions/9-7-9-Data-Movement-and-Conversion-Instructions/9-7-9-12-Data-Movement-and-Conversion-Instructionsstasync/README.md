@@ -1,0 +1,1 @@
+Documents `st.async`, a non-blocking asynchronous store that either writes to shared cluster memory and signals completion via an mbarrier object, or performs a release store to global memory. Supports `.b128` type. Introduced PTX ISA 8.1; cluster shared memory form requires `sm_90`+, global release form requires `sm_100`+.

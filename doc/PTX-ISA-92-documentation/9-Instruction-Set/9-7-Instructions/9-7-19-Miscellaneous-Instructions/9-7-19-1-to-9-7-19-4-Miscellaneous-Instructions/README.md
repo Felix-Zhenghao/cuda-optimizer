@@ -1,0 +1,1 @@
+Covers miscellaneous debug and performance instructions: `brkpt` (suspend execution for debugging, sm_11+), `nanosleep` (suspend thread for approximately t nanoseconds, sm_70+), `pmevent` (trigger performance monitor events by index or bitmask), and `trap` (abort execution and interrupt host CPU). All supported since early PTX ISA versions.

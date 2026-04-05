@@ -1,0 +1,1 @@
+Covers the three tcgen05 matrix descriptor types: shared memory descriptor (64-bit, encodes address/stride/swizzle), instruction descriptor (32-bit, encodes M/N/type/transpose/negate/sparsity/scale IDs), and zero-column mask descriptor (64-bit, for forcing B matrix columns to zero in `tcgen05.mma.ws`).

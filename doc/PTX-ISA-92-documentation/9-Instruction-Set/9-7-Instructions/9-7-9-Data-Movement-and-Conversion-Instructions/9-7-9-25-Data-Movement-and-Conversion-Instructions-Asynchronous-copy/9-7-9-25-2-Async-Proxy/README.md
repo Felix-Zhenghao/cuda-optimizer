@@ -1,0 +1,1 @@
+Explains the asynchronous proxy used by `cp{.reduce}.async.bulk` operations. Access to the same memory location across the generic and async proxies requires a `fence.proxy.async` cross-proxy fence. Completion of a bulk async operation includes an implicit generic-async proxy fence, making results visible to the generic proxy once completion is observed.

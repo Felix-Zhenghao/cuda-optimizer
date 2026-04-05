@@ -1,0 +1,1 @@
+Defines mixed-precision floating-point instructions that accept f16 or bf16 inputs and produce f32 results: `add.f32.{f16/bf16}` (convert-then-add), `sub.f32.{f16/bf16}` (convert-then-subtract), and `fma.f32.{f16/bf16}` (fused multiply-add). All require sm_100 or higher. Support rounding modes (.rn, .rz, .rm, .rp) and optional saturation to [0.0, 1.0].

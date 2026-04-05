@@ -1,0 +1,1 @@
+Four-way SIMD integer video instructions operating on four bytes in parallel: `vadd4`, `vsub4` (add/subtract), `vavrg4` (average), `vabsdiff4` (absolute difference), `vmin4`, `vmax4` (min/max). Support byte selection from eight bytes across two operands, saturation, secondary SIMD merge, or byte-level accumulate. Require `sm_30` or higher.

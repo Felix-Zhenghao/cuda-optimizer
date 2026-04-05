@@ -1,0 +1,1 @@
+The `mul` instruction multiplies two floating-point values for `.f32`, `.f64`, and SIMD `.f32x2` types, supporting rounding modifiers, flush-to-zero, and saturation. Without explicit rounding, `mul` sequences may be optimized to fused multiply-add. The `.f32x2` variant requires `sm_100` or higher.

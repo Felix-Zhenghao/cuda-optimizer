@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k256 with b1 single-bit type. A held in four b32 registers (32 bits each); accumulator in four s32 registers. Provides row/column formulas for the largest single-bit mma shape.

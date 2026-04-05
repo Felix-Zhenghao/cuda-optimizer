@@ -1,0 +1,1 @@
+Describes two PTX texture operation modes: unified mode (texture and sampler accessed via single `.texref` handle, up to 256 samplers) and independent mode (separate handles for texture and sampler, up to 32 samplers). Mode is selected with `.target texmode_unified` or `texmode_independent`. Unified mode is the default.

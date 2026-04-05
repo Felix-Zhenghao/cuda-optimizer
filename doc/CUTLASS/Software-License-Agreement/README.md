@@ -1,0 +1,1 @@
+NVIDIA CUTLASS DSLs software license agreement covering license grants, restrictions, authorized users, pre-release terms, updates, third-party components, ownership, feedback rights, termination conditions, warranty disclaimers, liability limitations, mission-critical application restrictions, governing law, indemnity, and general provisions.

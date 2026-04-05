@@ -1,0 +1,1 @@
+Defines supported data-type combinations for warpgroup MMA: integer (u8/s8 multiplicands, s32 accumulator), floating-point (f16 multiplicands, f16/f32 accumulator), bf16 and tf32 (f32 accumulator), FP8 e4m3/e5m2 (f16/f32 accumulator), and binary b1 (s32 accumulator). Also explains the async proxy model and required `fence.proxy.async` synchronization.

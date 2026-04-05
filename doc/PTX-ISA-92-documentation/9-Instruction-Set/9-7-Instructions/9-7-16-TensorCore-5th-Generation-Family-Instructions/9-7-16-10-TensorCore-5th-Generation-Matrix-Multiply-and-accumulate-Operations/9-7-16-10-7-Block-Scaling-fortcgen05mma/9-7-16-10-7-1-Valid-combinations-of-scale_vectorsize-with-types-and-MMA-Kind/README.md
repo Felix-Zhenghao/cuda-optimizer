@@ -1,0 +1,1 @@
+Provides valid combinations of `.scale_vectorsize` qualifier with MMA kinds and element types for block-scaled tcgen05 MMA. Scale vector sizes (`.scale_vec::1X`, `.scale_vec::2X`, `.scale_vec::4X`, `.block16`, `.block32`) each imply different numbers of scale factors per row and support specific MMA kind/type combinations with UE8M0 or UE4M3 scale types.

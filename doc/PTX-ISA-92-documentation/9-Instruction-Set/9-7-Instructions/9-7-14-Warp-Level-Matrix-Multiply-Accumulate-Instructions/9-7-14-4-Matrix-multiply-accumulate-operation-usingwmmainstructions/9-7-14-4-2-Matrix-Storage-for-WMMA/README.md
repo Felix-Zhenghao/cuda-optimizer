@@ -1,0 +1,1 @@
+Defines row-major and column-major memory layouts for wmma matrices, including stride semantics, address alignment requirements (aligned to fragment size in bytes), and default stride values per matrix shape and layout for all supported wmma shapes.

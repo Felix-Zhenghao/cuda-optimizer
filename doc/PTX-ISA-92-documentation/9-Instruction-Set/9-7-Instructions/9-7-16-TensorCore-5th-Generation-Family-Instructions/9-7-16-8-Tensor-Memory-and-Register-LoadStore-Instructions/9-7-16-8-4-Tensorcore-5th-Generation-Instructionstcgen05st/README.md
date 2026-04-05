@@ -1,0 +1,1 @@
+Documents `tcgen05.st`, an asynchronous collective warp-store from registers into Tensor Memory. Supports the same shapes and repetition counts as `tcgen05.ld`, with optional 16-bit unpacking. All warp threads must specify the same base address `taddr`. Introduced PTX ISA 8.6.

@@ -1,0 +1,4 @@
+- **9-7-8-1 to 5**: Basic bitwise logic: `and`, `or`, `xor`, `not`, `cnot` (C-style logical negation).
+- **9-7-8-6 `lop3`**: Arbitrary 3-input 32-bit logic operation specified by an 8-bit lookup table value.
+- **9-7-8-7 `shf`**: Funnel shift of a 64-bit concatenated pair, returning 32 bits; supports multi-word shifts and rotates.
+- **9-7-8-8/9 `shl`/`shr`**: Standard left and right bit shifts with zero-fill or sign-fill respectively.

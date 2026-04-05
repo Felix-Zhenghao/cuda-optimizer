@@ -1,0 +1,1 @@
+Documents `multimem.ld_reduce`, `multimem.st`, and `multimem.red` instructions that operate on multimem addresses spanning multiple GPU memory locations simultaneously. Supports integer and floating-point types including FP8 variants, with optional intermediate accumulation precision control via `.acc_prec`. Introduced PTX ISA 8.1; requires `sm_90`+.

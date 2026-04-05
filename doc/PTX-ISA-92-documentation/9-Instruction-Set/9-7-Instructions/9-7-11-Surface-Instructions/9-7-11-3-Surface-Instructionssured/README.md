@@ -1,0 +1,1 @@
+The `sured` instruction performs atomic reduction operations (add, min, max, and, or) on surface memory at given coordinates. Supports byte-addressed (`sured.b`) and sample-addressed (`sured.p`) modes for 1D, 2D, and 3D surfaces. Out-of-bounds handling via `.trap`, `.clamp`, or `.zero`. Requires sm_20; 64-bit min/max require sm_50.

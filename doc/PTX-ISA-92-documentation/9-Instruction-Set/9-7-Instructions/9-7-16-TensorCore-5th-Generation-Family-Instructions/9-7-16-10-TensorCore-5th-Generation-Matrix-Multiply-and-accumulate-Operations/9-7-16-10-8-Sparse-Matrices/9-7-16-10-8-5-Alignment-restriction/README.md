@@ -1,0 +1,1 @@
+States that sparse layouts using only half the datapath lanes (Layout F and Layout C from the Data Path Layout Organization section) must use the same alignment across matrices A, D, and the sparsity metadata matrix.

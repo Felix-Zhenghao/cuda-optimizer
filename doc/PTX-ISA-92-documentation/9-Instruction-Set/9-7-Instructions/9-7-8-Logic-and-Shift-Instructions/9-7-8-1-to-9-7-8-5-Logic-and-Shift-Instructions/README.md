@@ -1,0 +1,1 @@
+Covers basic bitwise logic instructions: `and` (bitwise AND), `or` (bitwise OR), `xor` (bitwise XOR), `not` (bitwise complement), and `cnot` (C-style logical negation returning 0 or 1). All support bit-size types and predicate registers. Operand sizes must match but types need not. All supported on all target architectures since PTX ISA 1.0.

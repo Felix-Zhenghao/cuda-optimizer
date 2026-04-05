@@ -1,0 +1,1 @@
+Describes per-thread matrix fragment layouts for the wmma instruction family. Fragment sizes and register types are specified per data type (f16, f32, f64, bf16, tf32, u8/s8, u4/s4, b1) and matrix role (A, B, accumulator C/D), with notes on architecture-dependent fragment distribution and constraints on fragment manipulation.

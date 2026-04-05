@@ -1,0 +1,1 @@
+Documents `tcgen05.alloc`, `tcgen05.dealloc`, and `tcgen05.relinquish_alloc_permit`. `tcgen05.alloc` dynamically allocates a power-of-2 number of columns (32-512) into Tensor Memory; `tcgen05.dealloc` frees them; `tcgen05.relinquish_alloc_permit` signals that the CTA will no longer allocate. All allocated Tensor Memory must be explicitly freed before kernel exit.

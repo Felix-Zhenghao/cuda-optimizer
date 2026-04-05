@@ -1,0 +1,1 @@
+The `txq` instruction queries texture attributes (width, height, depth, channel data type/order, normalized coordinates, array size, mipmap levels, samples) and sampler attributes (filter mode, address modes, force-unnormalized). Supports per-LOD queries via `txq.level`. Supports indirect access via `.u64` registers. Supported on all architectures.

@@ -1,0 +1,1 @@
+Documents MMA matrix shapes for tcgen05 instructions. K=96 is only supported on `sm_103a`. M and N are specified via the instruction descriptor; K can be explicit if multiple K values are valid for a given MMA variant or is otherwise inferred from the kind/type combination.

@@ -1,0 +1,1 @@
+Documents the four tcgen05 MMA instruction variants: `tcgen05.mma` (dense, supports float/int kinds and block scaling); `tcgen05.mma.sp` (sparse A with metadata); `tcgen05.mma.ws` (weight stationary convolution); `tcgen05.mma.ws.sp` (weight stationary + sparse A).

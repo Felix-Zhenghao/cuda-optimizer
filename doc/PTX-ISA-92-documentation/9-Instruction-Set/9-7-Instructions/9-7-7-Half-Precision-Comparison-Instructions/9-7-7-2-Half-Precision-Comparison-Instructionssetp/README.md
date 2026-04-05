@@ -1,0 +1,1 @@
+The half-precision `setp` instruction compares f16, bf16, f16x2, or bf16x2 values and writes predicate results. For packed x2 types, two predicates p and q are written with per-element comparison results. Supports ordered, unordered, and NaN-testing operators with optional Boolean combination. Requires sm_53; bf16 variants require sm_90.

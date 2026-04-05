@@ -1,0 +1,1 @@
+Covers `rcp` (reciprocal, `1/a`) for `.f32` and `.f64` with fast approximate (`rcp.approx`) and IEEE 754 compliant rounding modes. Also documents `rcp.approx.ftz.f64`, a gross approximation using only the upper 32 bits of the double operand for speed. Both introduced in PTX ISA 1.0 and 2.1 respectively.

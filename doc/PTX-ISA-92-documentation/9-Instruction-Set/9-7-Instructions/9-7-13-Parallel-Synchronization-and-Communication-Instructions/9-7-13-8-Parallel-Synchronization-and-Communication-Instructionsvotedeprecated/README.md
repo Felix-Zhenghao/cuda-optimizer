@@ -1,0 +1,1 @@
+Documents the deprecated vote instruction (without .sync qualifier) for predicate reduction across active warp threads. Supports .all, .any, .uni predicate modes and .ballot bitmask form. Deprecated in PTX ISA 6.0 and removed in 6.4 for sm_70+.

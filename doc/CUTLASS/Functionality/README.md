@@ -1,0 +1,1 @@
+Lists supported MMA operations for the CUTLASS DSL 4.0 release across Ampere, Hopper, and Blackwell architectures, including FP16, BF16, FP8, TF32, and I8 data types, along with platform requirements (Python 3.12, Linux x86_64, CUDA 12.9+).

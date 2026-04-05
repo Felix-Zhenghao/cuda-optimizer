@@ -1,0 +1,1 @@
+Documents `ldu` (load uniform), which reads read-only data from global state space when the address is guaranteed identical across all threads in the warp. Supports vector loads (`.v2`, `.v4`) and `.b128` type. Introduced PTX ISA 2.0; `ldu.f64` requires `sm_13`, `.b128` requires `sm_70`.

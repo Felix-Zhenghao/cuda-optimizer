@@ -1,0 +1,2 @@
+- **9-3-1-1 Integer and Bit-Size Comparisons**: Signed (`eq`/`ne`/`lt`/`le`/`gt`/`ge`), unsigned (`lo`/`ls`/`hi`/`hs`), and bit-size (`eq`/`ne` only) comparison operators.
+- **9-3-1-2 Floating-Point Comparisons**: Ordered and unordered FP operators, including NaN-returning variants and `num`/`nan` tests.

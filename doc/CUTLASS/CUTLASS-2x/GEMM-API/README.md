@@ -1,0 +1,1 @@
+Documents the CUTLASS 2.x GEMM API across all hierarchy levels: device-wide, threadblock-level, warp-level, thread-level, and instruction-level operations, including Tensor Core usage and efficient epilogue strategies for row-major and column-major output layouts.

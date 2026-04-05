@@ -1,0 +1,21 @@
+# 9.7. Instructions
+
+- **Integer-Arithmetic-Instructions** — Add, sub, mul, mad, div, rem, abs, neg, min, max with optional saturation and packed SIMD types.
+- **Extended-Precision-Integer-Arithmetic-Instructions** — Carry/borrow-chaining instructions (add.cc, addc, sub.cc, subc, mad.cc, madc) for multi-word integer arithmetic.
+- **Floating-Point-Instructions** — Single/double-precision FP: add, sub, mul, fma, mad, div, rcp, sqrt, rsqrt, sin, cos, lg2, ex2, tanh.
+- **Half-Precision-Floating-Point-Instructions** — f16/bf16 scalar and packed SIMD arithmetic: add, sub, mul, fma, neg, abs, min, max, tanh, ex2.
+- **Mixed-Precision-Floating-Point-Instructions** — f16/bf16 inputs producing f32 results: add, sub, fma with rounding and optional saturation (sm_100+).
+- **Comparison-and-Selection-Instructions** — `set`, `setp` comparisons writing integer/float/predicate results; `selp`/`slct` conditional selection.
+- **Half-Precision-Comparison-Instructions** — f16/bf16 and packed f16x2/bf16x2 `set`/`setp` comparisons with NaN-aware operators.
+- **Logic-and-Shift-Instructions** — Bitwise and/or/xor/not/cnot, arbitrary 3-input LUT (lop3), and funnel shift (shf).
+- **Data-Movement-and-Conversion-Instructions** — Loads, stores, shuffles, prefetch, address/type conversion, async copies, tensor operations, cache policy control.
+- **Texture-Instructions** — Texture lookups across 1D/2D/3D/array/cubemap geometries with mipmap, offset, and depth compare support.
+- **Surface-Instructions** — Surface load (suld), store (sust), and atomic reduction (sured) with clamp for out-of-bounds handling.
+- **Control-Flow-Instructions** — Branch, indexed branch, function call (direct/indirect), return, exit, and predicated execution grouping.
+- **Parallel-Synchronization-and-Communication-Instructions** — Barriers, atomics, reductions, voting, match, redux, mbarrier, elect, griddepcontrol, clusterlaunchcontrol.
+- **Warp-Level-Matrix-Multiply-Accumulate-Instructions** — wmma and mma instructions for warp-cooperative matrix operations including dense and sparse variants.
+- **Asynchronous-Warpgroup-Level-Matrix-Multiply-Accumulate-Instructions** — wgmma.mma_async for 128-thread warpgroup matrix operations with shared memory operands and sparse support.
+- **TensorCore-5th-Generation-Family-Instructions** — tcgen05: Tensor Memory addressing, allocation, ld/st, data movement, fences, and MMA (dense/sparse/block-scaled).
+- **Stack-Manipulation-Instructions** — stacksave, stackrestore, and alloca for dynamic per-thread stack allocation management.
+- **Video-Instructions** — Scalar and SIMD subword integer operations (vadd, vsub, vmad, vset, etc.) for multimedia workloads.
+- **Miscellaneous-Instructions** — Debug/perf primitives (brkpt, nanosleep, pmevent, trap) and setmaxnreg register budget hint.

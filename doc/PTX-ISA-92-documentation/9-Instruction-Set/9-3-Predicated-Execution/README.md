@@ -1,0 +1,2 @@
+- **9-3-1 Comparisons**: Integer, bit-size, and floating-point comparison operators used to produce predicate values, including NaN-aware variants.
+- **9-3-2 Manipulating Predicates**: Predicate computation via `and`/`or`/`xor`/`not`/`mov` and conversion to/from integers via `setp` and `selp`.

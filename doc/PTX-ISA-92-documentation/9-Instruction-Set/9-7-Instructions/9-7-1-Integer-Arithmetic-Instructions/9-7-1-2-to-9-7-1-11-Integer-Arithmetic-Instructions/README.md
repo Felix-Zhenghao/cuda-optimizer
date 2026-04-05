@@ -1,0 +1,1 @@
+Covers integer arithmetic instructions sub, mul, mad, mul24, mad24, sad, div, rem, abs, and neg. These support scalar integer types with mul providing .hi/.lo/.wide modes, mad adding a third operand, mul24/mad24 operating on 24-bit values, sad computing sum-of-absolute-differences, and abs/neg for sign operations. Some support optional saturation or packed SIMD types.

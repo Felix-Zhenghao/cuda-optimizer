@@ -1,0 +1,1 @@
+Describes 2:4 structured sparsity storage for sparse mma matrix A, where each 4-element chunk stores only 2 non-zero values with 2-bit indices in a metadata operand. Details granularity per shape/type (f16/bf16, tf32, u8/s8, u4/s4, fp8), metadata encoding, and sparsity selector thread assignment.

@@ -1,0 +1,1 @@
+Describes optional cache operators for `ld` and `st` instructions (PTX ISA 2.0+, `sm_20`+). Load operators include `.ca` (cache all levels), `.cg` (L2 only), `.cs` (streaming/evict-first), `.lu` (last-use), and `.cv` (no cache). Store operators include `.wb` (write-back), `.cg`, `.cs`, and `.wt` (write-through). These are performance hints and do not affect memory consistency.

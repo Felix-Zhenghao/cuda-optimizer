@@ -1,0 +1,1 @@
+Documents `tcgen05.mma.ws` (weight stationary convolution MMA), which holds matrix B stationary across multiple MMA operations while accumulating with different A inputs. Supports float kinds (f16, tf32, f8f6f4) and integer kind (i8), with optional zero-column mask descriptor and `.collector_usage` for input collection. Only `.cta_group::1` is supported.

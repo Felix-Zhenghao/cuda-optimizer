@@ -1,0 +1,1 @@
+The `sub` instruction subtracts two floating-point values for `.f32`, `.f64`, and SIMD `.f32x2` types, supporting rounding modifiers (`.rn`, `.rz`, `.rm`, `.rp`), flush-to-zero (`.ftz`), and saturation (`.sat`). The `.f32x2` packed variant operates two f32 subtractions in parallel, requiring `sm_100` or higher.

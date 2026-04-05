@@ -1,0 +1,1 @@
+Documents `cp.async.bulk.prefetch`, a non-blocking hint instruction that may asynchronously prefetch data from global memory to the L2 cache. The `size` operand (multiple of 16 bytes) specifies how much data to prefetch. Supports cache-hint policy. Introduced PTX ISA 8.0; requires `sm_90`+.

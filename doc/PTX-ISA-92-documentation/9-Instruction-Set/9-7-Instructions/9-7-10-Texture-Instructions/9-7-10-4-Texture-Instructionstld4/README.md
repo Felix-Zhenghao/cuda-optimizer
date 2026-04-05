@@ -1,0 +1,1 @@
+The `tld4` instruction fetches the 4-texel bilinear interpolation footprint from a texture, returning four texel samples from one color component (R, G, B, or A) placed counter-clockwise from lower-left. Supports 2D, 2D array, cubemap, and cubemap array geometries. Optional sampler, coordinate offsets, depth compare, and residency predicate. Requires sm_20.

@@ -1,0 +1,1 @@
+Documents `tcgen05.commit`, which makes an mbarrier object track the completion of all prior async tcgen05 operations issued by the executing thread. Upon completion, an arrive-on signal (`.mbarrier::arrive::one`) is triggered on the mbarrier. Supports multicast to cluster shared memory. Introduced PTX ISA 8.6; requires `sm_100a`/`sm_101a`+.

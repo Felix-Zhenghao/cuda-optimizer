@@ -1,0 +1,1 @@
+Step-by-step tutorial building dense matrix-matrix multiply using CuTe. Covers CTA partitioning, shared memory staging, thread partitioning, copy and gemm mainloops, and M/N/K-major conventions with sgemm_1.cu and sgemm_2.cu examples.

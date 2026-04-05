@@ -1,0 +1,1 @@
+Documents `tcgen05.fence::before_thread_sync` and `tcgen05.fence::after_thread_sync`. These specialized fences order prior or subsequent asynchronous tcgen05 operations with respect to thread synchronization operations, acting as code-motion barriers to prevent compiler reordering across thread-scope execution ordering instructions. Introduced PTX ISA 8.6.

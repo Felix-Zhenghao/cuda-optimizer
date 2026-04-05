@@ -1,0 +1,1 @@
+Documents the `mov` instruction for setting a register to an immediate, another register, a special register, or the non-generic address of a variable in `const`, `global`, `local`, or `shared` state space. Also supports taking addresses of device and kernel entry functions. Introduced in PTX ISA 1.0; `mov.f64` requires `sm_13`.

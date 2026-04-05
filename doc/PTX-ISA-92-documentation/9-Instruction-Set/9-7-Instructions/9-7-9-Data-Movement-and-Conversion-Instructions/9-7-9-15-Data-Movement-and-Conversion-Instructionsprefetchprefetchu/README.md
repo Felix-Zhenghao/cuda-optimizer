@@ -1,0 +1,1 @@
+Documents `prefetch` and `prefetchu` instructions for hinting the memory system to load cache lines into L1 or L2 ahead of use. Supports global and local state spaces, eviction priority hints, and a special `.tensormap` qualifier for prefetching tensor-map objects for subsequent `cp.async.bulk.tensor`. Requires `sm_20`+; tensormap prefetch requires `sm_90`.

@@ -1,0 +1,1 @@
+Glossary of CUTLASS terminology including core CuTe types (Layout, Tensor), mathematical concepts (Capacity, Extent, Rank, Size), GPU programming terms (Fragment, Register, Warp, Tile), CUTLASS-specific abstractions (TensorRef, TensorView, Policy, Trait), and deprecated 2.x concepts (Operator, Tile Iterator, Thread Map).

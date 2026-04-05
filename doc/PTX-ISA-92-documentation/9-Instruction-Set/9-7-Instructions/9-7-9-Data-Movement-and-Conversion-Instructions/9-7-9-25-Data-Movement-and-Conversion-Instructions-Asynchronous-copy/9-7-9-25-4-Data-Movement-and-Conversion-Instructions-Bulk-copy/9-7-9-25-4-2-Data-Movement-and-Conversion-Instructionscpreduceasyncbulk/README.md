@@ -1,0 +1,1 @@
+Documents `cp.reduce.async.bulk`, a non-blocking instruction that asynchronously reduces shared memory data into a destination (shared cluster or global) using reduction operations (`.add`, `.min`, `.max`, `.and`, `.or`, `.xor`, `.inc`, `.dec`). Completion via mbarrier or bulk_group. Introduced PTX ISA 8.0; requires `sm_90`+.

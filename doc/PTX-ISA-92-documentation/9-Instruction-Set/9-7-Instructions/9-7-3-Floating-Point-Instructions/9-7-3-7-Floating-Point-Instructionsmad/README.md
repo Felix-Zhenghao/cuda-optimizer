@@ -1,0 +1,1 @@
+The `mad` instruction computes multiply-add (`d = a*b + c`) for `.f32` and `.f64` types. On `sm_20+` it is equivalent to `fma` with infinite-precision intermediate product. On `sm_1x`, `.f32` uses double-precision intermediate with mantissa truncation. Rounding modifiers are required for `sm_20+` targets.

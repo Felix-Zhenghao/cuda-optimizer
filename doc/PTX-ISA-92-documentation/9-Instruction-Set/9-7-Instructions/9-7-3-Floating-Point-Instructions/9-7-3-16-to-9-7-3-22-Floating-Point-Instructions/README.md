@@ -1,0 +1,1 @@
+Covers seven approximate single-precision instructions: `rsqrt` (reciprocal square root), `rsqrt.approx.ftz.f64` (double-precision approximation using upper 32 bits), `sin`, `cos`, `lg2` (base-2 log), `ex2` (base-2 exponential), and `tanh` (hyperbolic tangent, requires `sm_75`). All use the `.approx` modifier and support optional `.ftz` to flush subnormals.

@@ -1,0 +1,1 @@
+Covers griddepcontrol (9.7.13.13) for dependent-grid launch control (.launch_dependents signals that dependents can be scheduled, .wait blocks until all prerequisites complete) and elect.sync (9.7.13.14) for electing one thread from a masked group as a representative with a predicate result.

@@ -1,0 +1,1 @@
+The `neg` instruction negates half-precision values and `abs` computes absolute values, both for `.f16`, `.bf16`, and their SIMD packed variants. Both support `.ftz` for f16 types to flush subnormals. NaN inputs yield unspecified NaN. Requires `sm_53`; `.bf16` variants require `sm_80` or higher.

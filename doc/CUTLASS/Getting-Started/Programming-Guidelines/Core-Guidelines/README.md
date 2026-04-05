@@ -1,0 +1,2 @@
+- **Design-Patterns**: CUTLASS design patterns: templates, constant memory, composable shared memory, and loop unrolling strategies.
+- **Style-and-Conventions**: C++ style guide covering formatting, East const, naming conventions, namespaces, macros, and warning suppression.

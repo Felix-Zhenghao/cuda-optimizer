@@ -1,0 +1,1 @@
+Documents mbarrier.arrive for performing an arrive-on operation on an mbarrier object in shared memory. Supports optional count, expect_tx (increment tx-count), noComplete variants, and .sem/.scope qualifiers including cluster-scope arrivals for cross-CTA synchronization.

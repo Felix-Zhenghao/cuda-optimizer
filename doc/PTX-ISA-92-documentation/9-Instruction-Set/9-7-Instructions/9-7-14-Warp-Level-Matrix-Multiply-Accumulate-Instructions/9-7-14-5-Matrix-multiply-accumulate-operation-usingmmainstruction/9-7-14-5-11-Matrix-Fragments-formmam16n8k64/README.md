@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k64 with u4/s4 and e2m1 types. A held in four b32 registers (eight elements each); accumulator in four s32 registers. Provides row/column index formulas for thread grouping.

@@ -1,0 +1,1 @@
+Documents the sparsity selector (2-bit field in instruction descriptor) that controls which sub-columns of Tensor Memory hold the sparsity metadata. Provides layout diagrams for M=64 and M=128/256 for `.kind::f16` and M=64 for `.kind::tf32`, showing which Tensor Memory sub-columns are selected for each sparsity selector value.

@@ -1,0 +1,2 @@
+- **Core-Guidelines**: Core C++ programming guidelines covering design patterns, style rules, naming conventions, and formatting standards.
+- **CUTLASS-Idioms**: CUTLASS-specific C++ idioms such as correct major-mode detection for tensors.

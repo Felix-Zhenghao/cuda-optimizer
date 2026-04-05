@@ -1,0 +1,1 @@
+Describes structured sparsity formats for `tcgen05.mma.sp`: `.kind::tf32` uses 1:2 sparsity (one non-zero per two elements, 4-bit index with two valid values), while `.kind::f16`, `.kind::f8f6f4`, `.kind::mxf8f6f4`, and `.kind::i8` use 2:4 sparsity (two non-zeros per four elements). Sparsity metadata is stored in Tensor Memory.

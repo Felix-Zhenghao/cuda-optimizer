@@ -1,0 +1,1 @@
+Defines ordered floating-point comparison operators (`eq`, `ne`, `lt`, `le`, `gt`, `ge`) where NaN yields False, and unordered variants (`equ`, `neu`, `ltu`, `leu`, `gtu`, `geu`) where NaN yields True. Also provides `num` (both operands numeric) and `nan` (either operand is NaN) operators.

@@ -1,0 +1,1 @@
+Defines the 64-bit matrix descriptor format for shared memory matrices in `wgmma.mma_async`: bits 13:0 encode start address, bits 29:16 encode leading dimension byte offset, bits 45:32 encode stride byte offset, bits 51:49 encode base offset, and bits 63:62 encode swizzling mode (0=none, 1=128B, 2=64B, 3=32B). All fields are encoded via `(x & 0x3FFFF) >> 4`.

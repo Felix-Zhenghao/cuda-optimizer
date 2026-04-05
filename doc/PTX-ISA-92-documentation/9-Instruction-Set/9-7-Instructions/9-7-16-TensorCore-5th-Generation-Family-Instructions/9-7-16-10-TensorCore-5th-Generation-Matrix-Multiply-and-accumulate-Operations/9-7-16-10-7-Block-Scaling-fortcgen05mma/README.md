@@ -1,0 +1,1 @@
+Documents block scaling for `tcgen05.mma`: valid scale vector size / MMA kind / type combinations; Scale Factor A ID and layout in Tensor Memory for scale_vec::1X through scale_vec::4X and block32/block16 with K=96; Scale Factor B ID and corresponding Tensor Memory sub-column layouts.

@@ -1,0 +1,1 @@
+Covers the memory consistency model for tcgen05: async vs synchronous instruction classification, canonical synchronization patterns (pipelined and non-pipelined ordering), and shared memory access through the async proxy requiring `fence.proxy.async` for cross-proxy synchronization.

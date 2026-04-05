@@ -1,0 +1,1 @@
+Covers fundamental control flow constructs: `{}` (instruction grouping and variable scoping), `@` (predicated execution guarding an instruction on a predicate register), `bra` (conditional or unconditional branch to a label with optional `.uni` for non-divergent guarantee), and `brx.idx` (indexed branch selecting a label from a `.branchtargets` list by a u32 index).

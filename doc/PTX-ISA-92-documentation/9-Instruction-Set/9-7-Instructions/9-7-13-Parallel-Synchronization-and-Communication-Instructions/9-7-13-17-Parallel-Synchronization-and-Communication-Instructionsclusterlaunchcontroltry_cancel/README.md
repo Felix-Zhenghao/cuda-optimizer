@@ -1,0 +1,1 @@
+Documents clusterlaunchcontrol.try_cancel for asynchronously requesting cancellation of a pending (not-yet-started) cluster launch. Writes an opaque response to shared memory tracked by an mbarrier at cluster scope. Supports optional multicast to all CTAs in the cluster. Requires sm_100+.

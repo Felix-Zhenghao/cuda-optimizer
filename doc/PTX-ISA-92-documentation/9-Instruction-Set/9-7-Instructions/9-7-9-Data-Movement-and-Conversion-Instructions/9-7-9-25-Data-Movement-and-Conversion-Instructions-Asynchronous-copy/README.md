@@ -1,0 +1,1 @@
+Covers PTX asynchronous copy infrastructure: completion mechanisms (async-group and mbarrier-based); async proxy and cross-proxy fencing; non-bulk async copies (`cp.async`); bulk async copies (`cp.async.bulk`, `cp.reduce.async.bulk`); multimem bulk copies; and tensor async copies using tensor-map objects.

@@ -1,0 +1,1 @@
+Release notes for CUTLASS versions 1.x through 2.11, covering Stream-K, fused multi-head attention, dual GEMM, Hopper double precision, ELL block sparse GEMM, group/depthwise convolution, FP8 types, and CUTLASS Python support.

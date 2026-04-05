@@ -1,0 +1,1 @@
+Brief guide on CUTLASS-specific C++ idioms, specifically the correct way to detect whether a tensor is MN-major or K-major using cutlass::detail::is_major<0, Stride>() instead of the incorrect get<0>(stride) == 1 approach which fails for multimode tensor contractions.

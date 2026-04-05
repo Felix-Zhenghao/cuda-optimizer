@@ -1,0 +1,1 @@
+Describes mipmap texture hierarchies where each LOD level is half the resolution of the previous. PTX `tex` supports three LOD selection modes: base (always level 0), level (explicit LOD argument), and gradient (partials dx/dy to compute LOD). Total LOD count follows `1 + floor(log2(max(w,h,d)))`.

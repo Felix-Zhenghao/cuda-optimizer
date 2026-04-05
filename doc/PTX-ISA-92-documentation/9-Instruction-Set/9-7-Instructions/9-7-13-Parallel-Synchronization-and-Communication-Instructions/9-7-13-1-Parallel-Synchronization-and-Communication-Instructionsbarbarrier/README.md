@@ -1,0 +1,1 @@
+Documents bar/barrier (bar.cta/barrier.cta) instructions for CTA-level barrier synchronization. Supports .sync (blocking), .arrive (non-blocking), and .red (reduction: popc count, and/or predicates) operations on one of 16 named barriers. Requires sm_20+; barrier.cta variants require sm_90+.

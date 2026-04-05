@@ -1,0 +1,1 @@
+The half-precision `set` instruction compares f16, bf16, f16x2, or bf16x2 values and writes results to half-precision or integer destinations. For packed x2 types, comparisons are element-wise, packed into a 32-bit result. Supports ordered and unordered comparison operators with optional Boolean combination and NaN-testing. Requires sm_53 or higher; bf16 variants require sm_90.

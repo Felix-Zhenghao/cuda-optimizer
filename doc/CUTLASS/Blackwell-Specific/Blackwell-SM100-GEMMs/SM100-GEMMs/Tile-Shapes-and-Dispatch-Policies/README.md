@@ -1,0 +1,1 @@
+Lists valid MMA tile shapes, dispatch policies, and epilogue configurations for SM100 GEMMs. Covers 1SM/2SM dense and sparse variants across all data type combinations, including auto kernel dispatch policy options.

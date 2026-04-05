@@ -1,0 +1,1 @@
+Documents per-thread register fragments for `wgmma.mma_async` shapes m64nNk16 (f16/bf16 matrix A: four f16x2 registers; accumulator D: N/4 f16x2 or N/2 f32 registers) and m64nNk8 (tf32 matrix A: four b32 registers; accumulator D: N/2 f32 registers). Includes layout diagrams for how matrix elements are distributed across threads in a warpgroup.

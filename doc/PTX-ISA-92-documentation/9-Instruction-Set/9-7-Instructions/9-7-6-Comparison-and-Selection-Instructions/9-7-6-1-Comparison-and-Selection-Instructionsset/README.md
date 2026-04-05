@@ -1,0 +1,1 @@
+The `set` instruction compares two values with a relational operator and optionally combines the result with a predicate via a Boolean operator. Result is written as 0xffffffff (integer) or 1.0f (float) for True, 0 for False. Supports all integer and floating-point source types with signed, unsigned, unordered, and NaN-testing comparison operators.

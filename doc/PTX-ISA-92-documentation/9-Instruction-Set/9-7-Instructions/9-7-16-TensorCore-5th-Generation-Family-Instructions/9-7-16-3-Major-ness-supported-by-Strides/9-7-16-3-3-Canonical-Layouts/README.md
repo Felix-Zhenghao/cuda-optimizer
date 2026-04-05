@@ -1,0 +1,1 @@
+Provides canonical CuTe layout expressions for MN-major and K-major shared memory layouts with no-swizzling, 32B, 64B, and 128B swizzling modes. Includes concrete examples with exact stride parameters (LBO, SBO) for tf32 and bf16 element types across K-major and MN-major configurations.

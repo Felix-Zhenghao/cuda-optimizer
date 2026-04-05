@@ -1,0 +1,1 @@
+Documents membar and fence instructions for enforcing memory operation ordering. Covers thread fences (fence.sem.scope), cluster-scoped fences with sync_restrict, mbarrier_init operation fence, proxy fences (bi/uni-directional for tensormap::generic), and legacy membar.level/membar.proxy variants with full qualifier tables.

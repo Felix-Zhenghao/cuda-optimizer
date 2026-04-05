@@ -1,0 +1,1 @@
+Describes the CUTLASS implicit GEMM convolution implementation: mapping 2D convolution to matrix multiply, the device-level convolution operator, activation and filter tile iterators, Tensor Core usage with ldmatrix, permuted shared memory layouts, and the epilogue.

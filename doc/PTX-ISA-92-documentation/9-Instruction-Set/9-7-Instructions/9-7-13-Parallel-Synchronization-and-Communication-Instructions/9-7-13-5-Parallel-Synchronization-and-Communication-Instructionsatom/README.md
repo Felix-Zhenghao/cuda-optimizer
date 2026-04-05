@@ -1,0 +1,1 @@
+Documents the atom instruction for atomic read-modify-write operations on global/shared memory. Supports scalar types (b32/b64, u32/u64, s32/s64, f32/f64, b128, f16/f16x2, bf16/bf16x2), vector types, and operations including and/or/xor, cas/exch, add/inc/dec, min/max with optional .sem, .scope, and cache hint qualifiers.

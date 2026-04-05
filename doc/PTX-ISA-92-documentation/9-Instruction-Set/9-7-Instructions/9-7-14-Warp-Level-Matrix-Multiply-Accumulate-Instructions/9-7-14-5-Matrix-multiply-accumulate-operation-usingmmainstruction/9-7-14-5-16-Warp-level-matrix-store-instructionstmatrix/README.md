@@ -1,0 +1,1 @@
+Documents stmatrix instruction for collectively storing one or more matrices (m8n8 or m16n8) from warp registers to shared memory. Supports b16/b8 types, x1/x2/x4 count multipliers, and optional transposition; m16n8 shape only valid for b8 type.

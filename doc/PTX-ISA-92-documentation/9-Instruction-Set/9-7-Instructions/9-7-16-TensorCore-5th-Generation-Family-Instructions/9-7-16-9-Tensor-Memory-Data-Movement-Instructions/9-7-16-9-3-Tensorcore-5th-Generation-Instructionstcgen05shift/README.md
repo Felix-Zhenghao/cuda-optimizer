@@ -1,0 +1,1 @@
+Documents `tcgen05.shift.down`, which asynchronously shifts all rows of a Tensor Memory matrix downward by one row (the last row is not shifted). Supports `.cta_group::1` (single CTA) and `.cta_group::2` (CTA pair). The base address must be lane-aligned to 32. Introduced PTX ISA 8.6; requires `sm_100a`, `sm_101a`, `sm_103a`, `sm_110a`.

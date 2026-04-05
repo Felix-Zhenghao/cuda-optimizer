@@ -1,0 +1,1 @@
+Covers sparse matrix support for tcgen05 MMA: 1:2 sparsity for tf32 and 2:4 sparsity for f16/f8f6f4/i8 formats; sparsity selector field controlling which Tensor Memory sub-columns hold metadata; alignment restrictions requiring consistent alignment across A, D, and metadata matrices for half-datapath layouts.

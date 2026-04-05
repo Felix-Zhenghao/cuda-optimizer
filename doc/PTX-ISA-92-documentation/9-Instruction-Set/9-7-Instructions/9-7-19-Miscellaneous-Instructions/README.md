@@ -1,0 +1,2 @@
+- **9-7-19-1 to 4**: Debug/perf primitives: `brkpt` (breakpoint), `nanosleep` (thread sleep in nanoseconds), `pmevent` (performance monitor event trigger), `trap` (abort with host interrupt).
+- **9-7-19-5 `setmaxnreg`**: Hint to increase or decrease the warp's per-thread register budget from the CTA register pool; requires warpgroup-wide execution and synchronization.

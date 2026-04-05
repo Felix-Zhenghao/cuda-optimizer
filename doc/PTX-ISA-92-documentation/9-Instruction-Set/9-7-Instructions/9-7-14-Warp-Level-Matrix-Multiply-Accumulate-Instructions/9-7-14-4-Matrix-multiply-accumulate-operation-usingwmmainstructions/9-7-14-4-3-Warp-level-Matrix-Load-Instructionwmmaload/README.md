@@ -1,0 +1,1 @@
+Documents wmma.load instruction for collectively loading matrix fragments (A, B, or C) from global/shared memory across a warp. Covers syntax for f16, bf16, tf32, f64, integer, sub-byte, and single-bit types; stride, alignment, .sync/.aligned qualifiers, and PTX/target ISA version requirements.

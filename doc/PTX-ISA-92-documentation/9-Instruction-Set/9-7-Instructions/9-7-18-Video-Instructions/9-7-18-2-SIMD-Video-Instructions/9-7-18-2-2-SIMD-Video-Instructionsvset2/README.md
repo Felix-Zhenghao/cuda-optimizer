@@ -1,0 +1,1 @@
+The `vset2` instruction performs two-way SIMD parallel comparison of dual half-word integer elements using comparison operators (eq, ne, lt, le, gt, ge). Results are always unsigned. Supports secondary SIMD merge or accumulate into operand `c`. Requires `sm_30` or higher.

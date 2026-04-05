@@ -1,0 +1,1 @@
+Full reference for mma.sp and mma.sp::ordered_metadata instructions performing sparse MMA with structured 2:4 sparse matrix A. Covers all syntax variants (f16/bf16, tf32, fp8 types, block-scaled variants), sparsity selector and metadata operands, and PTX ISA/target SM requirements from sm_80 through sm_100.

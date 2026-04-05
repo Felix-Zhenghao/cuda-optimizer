@@ -1,0 +1,1 @@
+Documents `cp.async.commit_group` and `cp.async.wait_group`. `commit_group` batches all prior uncommitted `cp.async` operations into a new per-thread async-group. `wait_group N` blocks until at most N async-groups remain pending. Together these enable pipelined overlap of async copies with compute. Introduced PTX ISA 7.0; `wait_group` requires `sm_80`+.

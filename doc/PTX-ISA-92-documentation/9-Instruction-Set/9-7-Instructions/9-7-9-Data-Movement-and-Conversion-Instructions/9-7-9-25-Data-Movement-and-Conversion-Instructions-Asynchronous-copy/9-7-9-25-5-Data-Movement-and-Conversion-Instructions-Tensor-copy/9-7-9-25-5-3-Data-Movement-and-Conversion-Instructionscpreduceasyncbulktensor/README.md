@@ -1,0 +1,1 @@
+Documents `cp.reduce.async.bulk.tensor`, which asynchronously reduces multi-dimensional tensor data from shared to global memory using a tensor-map descriptor. Supports reduction operations and tile/im2col_no_offs load modes. Completion via bulk_group. Introduced PTX ISA 8.0; requires `sm_90`+.

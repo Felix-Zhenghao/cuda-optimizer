@@ -1,0 +1,1 @@
+Documents redux.sync for performing warp-level reductions across a masked thread group. Supports add/min/max on u32/s32 integers, bitwise and/or/xor on b32, and min/max with optional .abs/.NaN on f32. Returns the reduction result to all participating threads. Requires sm_80+.

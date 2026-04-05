@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k16 with floating-point types (f16/bf16, tf32, e4m3/e5m2). Details fragment register assignments and row/column formulas for larger A fragments (eight sub-elements in four registers) for each supported floating-point sub-type.

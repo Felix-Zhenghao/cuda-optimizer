@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m8n8k4 with f16 type, where a warp computes 4 parallel MMA operations. Details fragment register assignments and row/column computation formulas for row-major and column-major A and B matrices and f16/f32 accumulator C/D layouts per lane group.

@@ -1,0 +1,1 @@
+Documents movmatrix instruction for transposing an m8n8 b16-element matrix in registers across a warp. Reads row-major elements from source register a and writes transposed elements to destination d, with mandatory .sync and .aligned qualifiers. Requires sm_90 or higher.

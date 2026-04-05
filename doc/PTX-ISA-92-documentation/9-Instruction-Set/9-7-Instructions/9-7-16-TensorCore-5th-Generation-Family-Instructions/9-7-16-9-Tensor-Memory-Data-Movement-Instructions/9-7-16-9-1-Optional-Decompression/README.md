@@ -1,0 +1,1 @@
+Describes optional on-the-fly decompression during `tcgen05.cp`: 4-bit floating-point elements (16 elements + 8 bytes padding) can be expanded to 8-bit, and 6-bit elements (16 elements + 4 bytes padding) can be expanded to 8-bit. Supports E3M2 and E2M3 6-bit formats with specific per-element bit-field layouts.

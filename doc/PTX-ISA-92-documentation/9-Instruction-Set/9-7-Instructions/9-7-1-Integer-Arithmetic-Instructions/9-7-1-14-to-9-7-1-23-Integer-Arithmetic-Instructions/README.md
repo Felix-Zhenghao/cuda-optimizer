@@ -1,0 +1,1 @@
+Covers bit-manipulation and advanced integer instructions: `popc` (population count), `clz` (count leading zeros), `bfind` (find most significant non-sign bit), `fns` (find nth set bit), `brev` (bit reverse), `bfe` (bit field extract), `bfi` (bit field insert), `szext` (sign/zero extend by N bits), `bmsk` (bit field mask), and `dp4a` (four-way byte dot product accumulate).

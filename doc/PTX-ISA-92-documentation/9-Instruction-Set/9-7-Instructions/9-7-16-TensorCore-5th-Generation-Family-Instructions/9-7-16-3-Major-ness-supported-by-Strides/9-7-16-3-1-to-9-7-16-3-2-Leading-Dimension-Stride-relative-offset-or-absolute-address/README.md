@@ -1,0 +1,1 @@
+Explains leading dimension and stride dimension byte offsets for shared memory descriptors. The leading dimension stride can be specified as a relative byte offset between columns or as an absolute byte address to the next buffer; the interpretation differs for K-major vs MN-major layouts and with or without swizzling.

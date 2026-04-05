@@ -1,0 +1,1 @@
+Documents ldmatrix instruction for collectively loading one or more 8x8 or 16x16 matrices from shared memory into warp registers, with optional transposition. Supports b16/b8 types, x1/x2/x4 count multipliers, and format conversion qualifiers (b8x16, b6x16_p32, b4x16_p64) for mma instruction compatibility.

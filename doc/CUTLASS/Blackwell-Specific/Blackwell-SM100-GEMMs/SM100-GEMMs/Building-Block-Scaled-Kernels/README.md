@@ -1,0 +1,1 @@
+Step-by-step guide to building block scaled SM100 GEMM kernels using the CUTLASS collective builder interface. Covers tensor description, performance parameter selection, epilogue setup with fusion operations, and scale factor memory layouts.

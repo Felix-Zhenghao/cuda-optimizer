@@ -1,0 +1,6 @@
+- **9-7-10-1 Texturing Modes**: Unified vs. independent texture/sampler modes with their resource limits.
+- **9-7-10-2 Mipmaps**: Mipmap level-of-detail hierarchy; PTX tex supports base, level, and gradient LOD selection.
+- **9-7-10-3 `tex`**: Full-featured texture lookup across 1D/2D/3D/array/cubemap/multi-sample geometries with mipmap, offset, and depth compare support.
+- **9-7-10-4 `tld4`**: Fetch 4-texel bilinear footprint from one texture component for 2D/array/cubemap geometries.
+- **9-7-10-5 `txq`**: Query texture or sampler attributes (dimensions, format, filter mode, etc.).
+- **9-7-10-6 `istypep`**: Test whether a register points to a `.texref`, `.samplerref`, or `.surfref` variable.

@@ -1,0 +1,22 @@
+# 4. CUDA Features
+
+- **4-1-Unified-Memory** — Deep-dive into unified memory paradigms: full hardware/software-coherent support, managed memory, Windows/Tegra, and performance hints.
+- **4-2-CUDA-Graphs** — Graph-based work submission model reducing CPU launch overhead; covers creation, instantiation, updating, conditional nodes, and device-side launch.
+- **4-3-Stream-Ordered-Memory-Allocator** — Stream-ordered async allocation API (cudaMallocAsync) for stream-scoped memory reuse without global GPU synchronization.
+- **4-4-Cooperative-Groups** — Flexible thread grouping beyond thread blocks; synchronization, collectives, async data movement, and multi-GPU grid groups.
+- **4-5-Programmatic-Dependent-Launch-and-Synchronization** — Overlap dependent kernels using trigger-at-block-start mechanism on compute capability 9.0+ devices.
+- **4-6-Green-Contexts** — Partition GPU SM resources between workloads using green contexts for isolation and improved multi-tenant throughput.
+- **4-7-Lazy-Loading** — Defer CUDA module loading until first use to reduce application startup time; enabled by default since CUDA 12.3.
+- **4-8-Error-Log-Management** — Collect plain-English CUDA API error descriptions via the Error Log Management driver API for easier debugging.
+- **4-9-Asynchronous-Barriers** — cuda::barrier API for non-blocking thread synchronization, phase tracking, early exit, completion functions, and producer-consumer patterns.
+- **4-10-Pipelines** — cuda::pipeline API for staged multi-buffer producer-consumer patterns overlapping async copies with compute.
+- **4-11-Asynchronous-Data-Copies** — LDGSTS and TMA instructions for hardware-accelerated async global-to-shared memory copies; includes STAS for stores.
+- **4-12-Work-Stealing-with-Cluster-Launch-Control** — Dynamic workload distribution via cluster launch control API enabling runtime work stealing across SMs.
+- **4-13-L2-Cache-Control** — Mark memory accesses as persisting or streaming; set aside L2 cache for frequently-accessed data on compute capability 8.0+ devices.
+- **4-14-Memory-Synchronization-Domains** — Reduce memory fence overhead by isolating fence scope to logical domains assigned at kernel launch.
+- **4-15-Interprocess-Communication** — Share GPU memory and events across host processes using legacy IPC handles or the Virtual Memory Management IPC API.
+- **4-16-Virtual-Memory-Management** — Fine-grained virtual address space and physical memory handle control; unicast sharing, multicast objects, and advanced memory configuration.
+- **4-17-Extended-GPU-Memory** — NVLink-C2C-based GPU access to all system memory for high-bandwidth CPU-GPU data sharing in single/multi-node setups.
+- **4-18-CUDA-Dynamic-Parallelism** — Kernels launch other kernels without host involvement; covers execution environment, memory coherence, programming interface, and guidelines.
+- **4-19-CUDA-Interoperability-with-APIs** — CUDA interop with OpenGL, Direct3D, Vulkan, and NvSci for sharing GPU resources and synchronization primitives.
+- **4-20-Driver-Entry-Point-Access** — Retrieve CUDA driver function pointers via cuGetProcAddress for version-aware runtime dynamic dispatch.

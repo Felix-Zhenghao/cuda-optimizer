@@ -1,0 +1,1 @@
+Fragment layout for sparse mma.m16n8k128 with u4/s4 and e2m1 types: matrix A in four b32 registers holding eight non-zero 4-bit elements out of 16 consecutive (2:4 sparsity), with standard B and s32 accumulator layout.

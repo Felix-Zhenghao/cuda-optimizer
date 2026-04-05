@@ -1,0 +1,1 @@
+Covers scalar video arithmetic instructions `vadd`, `vsub`, `vabsdiff`, `vmin`, `vmax` (operating on byte/half-word/word subword elements with optional saturation and secondary op/merge), and `vshl`/`vshr` (left/right shift with `.clamp` or `.wrap` mode). All support subword selection and require `sm_20` or higher.

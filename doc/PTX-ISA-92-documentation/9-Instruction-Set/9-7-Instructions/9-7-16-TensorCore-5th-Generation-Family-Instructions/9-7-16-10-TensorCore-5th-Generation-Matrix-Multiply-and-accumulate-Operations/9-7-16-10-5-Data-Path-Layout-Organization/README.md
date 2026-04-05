@@ -1,0 +1,1 @@
+Illustrates data path layout organizations for tcgen05 MMA accumulator (D matrix) in Tensor Memory across different M values and CTA-group configurations: Layout A (M=256), Layout B (M=128 + cta_group::2 + dense A), and others. These layouts define which Tensor Memory addresses to use in `tcgen05.ld`/`tcgen05.st` operations.

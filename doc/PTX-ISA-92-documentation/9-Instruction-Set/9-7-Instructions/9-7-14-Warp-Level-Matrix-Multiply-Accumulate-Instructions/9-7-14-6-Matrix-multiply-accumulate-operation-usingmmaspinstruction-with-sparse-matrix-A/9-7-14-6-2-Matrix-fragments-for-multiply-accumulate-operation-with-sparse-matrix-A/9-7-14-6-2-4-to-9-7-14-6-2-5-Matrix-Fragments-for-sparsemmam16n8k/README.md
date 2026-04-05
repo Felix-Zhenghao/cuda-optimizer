@@ -1,0 +1,1 @@
+Fragment layouts for sparse mma with tf32 type: m16n8k8 (A in two b32 registers, one non-zero tf32 per 2-element chunk) and m16n8k16 (A in four b32 registers). Both shapes use standard B and f32 accumulator layouts with 2:4 structured sparsity.

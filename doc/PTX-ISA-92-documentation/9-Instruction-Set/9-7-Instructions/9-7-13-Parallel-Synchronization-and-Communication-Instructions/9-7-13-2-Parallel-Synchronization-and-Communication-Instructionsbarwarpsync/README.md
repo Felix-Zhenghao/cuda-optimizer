@@ -1,0 +1,1 @@
+Documents bar.warp.sync for synchronizing a subset of threads within a warp using a 32-bit membermask bitmask. Executing thread waits until all masked threads have executed bar.warp.sync with the same mask, while also enforcing memory ordering among participating threads. Requires sm_70+.

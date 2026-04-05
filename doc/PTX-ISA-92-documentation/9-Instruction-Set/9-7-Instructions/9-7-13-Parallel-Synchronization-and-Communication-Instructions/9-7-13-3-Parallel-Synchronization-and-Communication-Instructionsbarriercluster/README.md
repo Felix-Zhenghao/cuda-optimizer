@@ -1,0 +1,1 @@
+Documents barrier.cluster for cluster-level synchronization: .arrive (non-blocking) marks warp arrival and .wait (blocking) waits for all cluster threads to arrive. Supports optional .sem qualifiers (.release/.relaxed for arrive, .acquire for wait). Requires sm_90+.

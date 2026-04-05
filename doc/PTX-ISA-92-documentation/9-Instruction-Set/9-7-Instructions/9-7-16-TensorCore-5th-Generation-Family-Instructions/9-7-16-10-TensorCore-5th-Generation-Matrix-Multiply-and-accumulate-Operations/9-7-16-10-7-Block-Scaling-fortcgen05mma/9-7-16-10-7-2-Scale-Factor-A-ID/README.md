@@ -1,0 +1,1 @@
+Describes the Scale Factor A ID (SFA_ID) and the layout of the scale factor A matrix in Tensor Memory. The SFA_ID (2-bit field in the instruction descriptor) selects a byte-aligned or half-word-aligned sub-column of Tensor Memory for scale factors. Layouts are shown for scale_vec::1X (K=32/64), scale_vec::2X (K=64/128), scale_vec::4X (K=64/128), and block32/block16 with K=96.

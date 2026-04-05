@@ -1,0 +1,1 @@
+CUTLASS 4.4.2 overview covering the project's purpose as a high-performance GEMM and linear algebra library for NVIDIA GPUs. Describes CuTe DSL, supported data types (FP64 through binary), architecture support from Volta to Blackwell, compatibility requirements, performance benchmarks, project structure, building instructions, and links to documentation resources.

@@ -1,0 +1,1 @@
+Documents Blackwell SM120 (RTX 5000 Series) GEMM support for narrow precision 4-bit and 6-bit data types. Covers mma.sync instructions, TN-only layout constraint, pingpong vs cooperative kernel schedules, and valid tile shapes.

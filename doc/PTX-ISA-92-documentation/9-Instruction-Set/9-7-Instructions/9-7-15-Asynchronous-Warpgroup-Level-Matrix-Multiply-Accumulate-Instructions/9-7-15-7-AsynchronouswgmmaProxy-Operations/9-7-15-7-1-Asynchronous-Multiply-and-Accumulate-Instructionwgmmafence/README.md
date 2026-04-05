@@ -1,0 +1,1 @@
+The `wgmma.fence.sync.aligned` instruction establishes ordering between prior thread register accesses and subsequent `wgmma.mma_async` accesses to the same registers (accumulators and matrix A fragments). Must be issued by all warps in the warpgroup before the first `wgmma.mma_async` and whenever register values are modified between operations. Requires `sm_90a`.

@@ -1,0 +1,1 @@
+Documents mbarrier.test_wait (non-blocking) and mbarrier.try_wait (potentially blocking with optional timeHint) for checking whether an mbarrier phase has completed. Supports both state-token and parity-based phase checking, with .sem/.scope qualifiers for acquire semantics. Requires sm_90+.

@@ -1,0 +1,1 @@
+The `shf` (funnel shift) instruction shifts a 64-bit value formed by concatenating two 32-bit registers left or right, returning a 32-bit portion of the result. Supports `.clamp` (shift amount clamped to 0-32) and `.wrap` (shift amount wrapped to 0-31) modes. Used for multi-word shifts and 32-bit rotate operations. Requires sm_32.

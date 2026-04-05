@@ -1,0 +1,1 @@
+Covers non-bulk asynchronous copy instructions: `cp.async` initiates async global-to-shared copies of 4/8/16 bytes; `cp.async.commit_group` and `cp.async.wait_group` manage async-group lifecycle for synchronization pipelining.

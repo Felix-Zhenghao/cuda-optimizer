@@ -1,0 +1,1 @@
+The `ex2.approx` instruction computes base-2 exponential (2^a) for `.f16`, `.f16x2`, `.bf16`, and `.bf16x2` types. SIMD variants process two 16-bit lanes in parallel. Maximum relative error is 2^-9.9 for `.f16` and 2^-7 for `.bf16`. Requires `sm_75`; `.bf16` variants require `sm_90` or higher.

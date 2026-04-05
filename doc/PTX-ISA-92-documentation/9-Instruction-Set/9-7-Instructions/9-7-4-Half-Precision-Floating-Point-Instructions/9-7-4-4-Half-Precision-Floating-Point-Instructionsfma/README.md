@@ -1,0 +1,1 @@
+The `fma` instruction computes fused multiply-add (`d = a*b + c`) for half-precision `.f16`, `.bf16`, and SIMD variants, with `.rn` rounding (default). Supports `.sat`, `.relu` (clamp negatives to 0), and `.oob` (clamp if OOB NaN operand). SIMD variants process two 16-bit lanes in parallel. Requires `sm_53`; `.relu` and `.bf16` require `sm_80`; `.oob` requires `sm_90`.

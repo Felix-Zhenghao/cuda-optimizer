@@ -1,0 +1,1 @@
+Describes CuTe's core Layout abstraction mapping coordinate spaces to index spaces. Covers integers, tuples, IntTuples, shapes, strides, layout creation, coordinate and index mappings, compatibility, vector and matrix layouts, sublayouts, concatenation, grouping, and slicing.

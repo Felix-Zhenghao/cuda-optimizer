@@ -1,0 +1,1 @@
+Describes the CUTLASS repository layout including the template library directory hierarchy (arch, gemm, layout, reduction, transform), CuTe core library, instance library with procedural generation scripts, CUTLASS Profiler, utilities, SDK examples, and test organization mirroring source structure.

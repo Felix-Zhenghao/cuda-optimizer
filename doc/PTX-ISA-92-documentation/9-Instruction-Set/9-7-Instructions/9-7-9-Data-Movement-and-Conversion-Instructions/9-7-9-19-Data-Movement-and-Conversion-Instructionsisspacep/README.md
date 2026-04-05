@@ -1,0 +1,1 @@
+Documents `isspacep`, which tests whether a generic address falls within a specified state space window (`.const`, `.global`, `.local`, `.shared{::cta,::cluster}`, `.param{::entry}`), writing a predicate result. Introduced PTX ISA 2.0; `sm_20`+ required; cluster and param variants require `sm_90`+ and `sm_70`+ respectively.

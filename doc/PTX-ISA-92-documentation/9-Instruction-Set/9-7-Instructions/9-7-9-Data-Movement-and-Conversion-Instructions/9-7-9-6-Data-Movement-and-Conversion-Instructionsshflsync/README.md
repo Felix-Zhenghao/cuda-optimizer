@@ -1,0 +1,1 @@
+Documents `shfl.sync`, the synchronized warp-level register shuffle instruction with four modes (`.up`, `.down`, `.bfly`, `.idx`). Threads specified by `membermask` synchronize before the data exchange, preventing undefined behavior from divergent control flow. Introduced in PTX ISA 6.0; requires `sm_30` or higher.

@@ -1,0 +1,1 @@
+Explains how CUTLASS 3.0 maintains backwards compatibility with 2.x at the device, kernel, and threadblock API layers, including the unified GemmUniversal entry point, layout tag conversions between 2.x tags and 3.0 CuTe strides, and migration guidance.

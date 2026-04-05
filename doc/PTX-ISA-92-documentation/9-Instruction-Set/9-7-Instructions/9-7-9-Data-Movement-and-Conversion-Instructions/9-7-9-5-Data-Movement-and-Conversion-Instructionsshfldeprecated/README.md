@@ -1,0 +1,1 @@
+Documents the deprecated `shfl` instruction (without `.sync`) for warp-level register data shuffle in four modes: `.up`, `.down`, `.bfly` (butterfly), and `.idx`. Deprecated in PTX ISA 6.0 in favor of `shfl.sync`; removed for `sm_70`+ in PTX ISA 6.4. Requires `sm_30` or higher.

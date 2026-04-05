@@ -1,0 +1,1 @@
+Documents per-thread register fragments for sparse `wgmma.mma_async` shape m64nNk64 for FP8 (e4m3/e5m2) and integer (s8/u8) types. Matrix A fragment holds four b32 registers with four non-zero elements each (16 total out of 32). Metadata is a b32 register with 16 4-bit vectors encoding two non-zero indices per 4-wide chunk for columns 0-31 and 32-63.

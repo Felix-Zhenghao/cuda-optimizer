@@ -1,0 +1,1 @@
+Covers `selp` (select between two values based on a predicate: `d = c ? a : b`) and `slct` (select based on the sign of a third operand: `d = c >= 0 ? a : b`). `slct` supports both s32 and f32 selector types, with optional `.ftz` for flushing subnormals in f32 comparisons.

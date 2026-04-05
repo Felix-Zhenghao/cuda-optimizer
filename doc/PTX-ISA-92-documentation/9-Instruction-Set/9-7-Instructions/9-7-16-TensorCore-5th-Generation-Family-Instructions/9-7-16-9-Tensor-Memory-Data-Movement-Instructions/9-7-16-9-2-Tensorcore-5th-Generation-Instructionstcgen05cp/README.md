@@ -1,0 +1,1 @@
+Documents `tcgen05.cp`, an asynchronous instruction that copies data from shared memory (described by a 64-bit matrix descriptor) into Tensor Memory. Supports multiple shapes (`.128x256b`, `.4x256b`, `.128x128b`, etc.), optional multicast (`.warpx2`, `.warpx4`), and optional decompression of 4-bit or 6-bit formats to 8-bit. Introduced PTX ISA 8.6.

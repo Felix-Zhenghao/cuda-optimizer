@@ -1,0 +1,1 @@
+Covers `ret` (return from function to caller; divergent by default unless `.uni` specified; terminates thread if at entry-level) and `exit` (unconditionally terminates a thread; barriers waiting on exited threads are released). Both supported on all architectures since PTX ISA 1.0.

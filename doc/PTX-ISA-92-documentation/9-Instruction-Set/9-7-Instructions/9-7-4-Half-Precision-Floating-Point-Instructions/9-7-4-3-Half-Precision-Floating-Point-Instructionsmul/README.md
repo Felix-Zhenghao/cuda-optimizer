@@ -1,0 +1,1 @@
+The `mul` instruction multiplies half-precision values for scalar `.f16`, `.bf16`, and SIMD `.f16x2`, `.bf16x2` types, with optional `.rn` rounding, `.ftz` flush-to-zero, and `.sat` saturation. SIMD variants multiply two packed 16-bit values in parallel. Requires `sm_53`; `.bf16` variants require `sm_90` or higher.

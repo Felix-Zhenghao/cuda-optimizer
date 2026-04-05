@@ -1,0 +1,1 @@
+Documents `multimem.cp.async.bulk`, which asynchronously bulk-copies data from shared memory to a multimem address, replicating the data to each GPU's memory in the multimem set. Supports optional byte mask. Completion via bulk_group mechanism. Introduced PTX ISA 8.1; requires `sm_90`+.

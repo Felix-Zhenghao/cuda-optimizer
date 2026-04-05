@@ -1,0 +1,1 @@
+Covers CUTLASS design patterns for high-performance GPU code: hierarchical organization, C++ templates for spanning the design space, constant memory optimization via Params structs, composable SharedStorage pattern for shared memory, and loop unrolling with CUTLASS_PRAGMA_UNROLL for register-resident tile data.

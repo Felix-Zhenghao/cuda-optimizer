@@ -1,0 +1,1 @@
+The `tex` instruction performs texture memory lookups across 1D, 2D, 3D, array, cubemap, and multi-sample geometries. Supports optional explicit sampler, mipmap LOD modes (base/level/gradient), coordinate offsets, depth compare values, and a destination predicate for memory residency checking. Returns 4-element vector (or 2-element for f16x2). Supported on all architectures.

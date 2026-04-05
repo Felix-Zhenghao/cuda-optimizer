@@ -1,0 +1,1 @@
+The `min` instruction returns the minimum of two half-precision values for `.f16`, `.bf16`, and SIMD variants. Supports `.NaN` to propagate NaN, and `.xorsign.abs` to XOR sign bits before comparing absolute values. SIMD variants process two lanes in parallel. Requires `sm_80`; `.xorsign.abs` requires `sm_86` or higher.

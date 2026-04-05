@@ -1,0 +1,1 @@
+Explains block scaling for mma.sync with kinds mxf8f6f4, mxf4, and mxf4nvf4, where D = (A * scale_A) * (B * scale_B) + C. Details scale matrix shapes for scale_vec 1X/2X/4X qualifiers and thread/byte selector mechanisms (thread-id-a, byte-id-a, thread-id-b, byte-id-b) for selecting scale factor elements SF_A and SF_B.

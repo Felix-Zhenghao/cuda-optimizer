@@ -1,0 +1,1 @@
+Provides detailed GEMM and convolution profiling examples: argument specifications, CUDA Core and Tensor Core operations, problem space sweeping, output formatting, CUTLASS 3.x procedural naming conventions, and exhaustive kernel search features.

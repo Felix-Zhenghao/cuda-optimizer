@@ -1,0 +1,1 @@
+Covers `stacksave` (copies current stack pointer to a register) and `stackrestore` (sets stack pointer from a register). Together they enable saving and restoring the stack pointer to manage dynamically allocated stack memory. Modifying a saved pointer before restoring may corrupt the stack. Both require sm_52, introduced in PTX ISA 7.3.

@@ -1,0 +1,1 @@
+Instructions for building CUTLASS on Windows using Visual Studio 2019/2022. Covers software prerequisites, MAX_PATH registry fix for long file paths, build environment setup via git bash, CMake configuration, building via Visual Studio IDE or command-line cmake --build, and tips for avoiding unnecessary CMake reruns.

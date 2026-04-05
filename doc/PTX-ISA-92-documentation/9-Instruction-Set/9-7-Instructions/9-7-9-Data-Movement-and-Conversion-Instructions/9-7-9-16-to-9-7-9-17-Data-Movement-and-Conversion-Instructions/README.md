@@ -1,0 +1,1 @@
+Covers two cache management instructions: `applypriority`, which applies a specified L2 eviction priority to a 128-byte aligned address range in the cache, and `discard`, which writes an unstable indeterminate value to a 128-byte aligned L2 cache range as a hint that the data can be discarded without writeback. Both introduced PTX ISA 7.4; require `sm_80`+.

@@ -1,0 +1,1 @@
+The `min` instruction finds the minimum of two values, supporting scalar integer types and packed SIMD variants (u16x2, s16x2, u8x4, s8x4) for parallel element-wise minimum. Optional `.relu` modifier clamps the result to 0 if negative (for signed types). Signed and unsigned comparisons differ in behavior.

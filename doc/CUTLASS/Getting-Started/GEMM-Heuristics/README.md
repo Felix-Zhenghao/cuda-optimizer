@@ -1,0 +1,1 @@
+Describes the experimental GEMM heuristics feature in cutlass_library that uses nvidia-matmul-heuristics to rank kernels by estimated performance. Covers supported problem space (dense GEMM for f8/f16/f32), Hopper/Blackwell hardware, JSON input format, CMake build options, profiler-based autotuning workflow, and Python API usage.

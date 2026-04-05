@@ -1,0 +1,1 @@
+The `min` instruction returns the minimum of two or three floating-point inputs for `.f32` and `.f64`. Supports `.NaN` to propagate NaN, `.abs` to compare absolute values, and `.xorsign` to XOR sign bits into result. Three-input variant requires `sm_100`; `.xorsign.abs` requires `sm_86` or higher.

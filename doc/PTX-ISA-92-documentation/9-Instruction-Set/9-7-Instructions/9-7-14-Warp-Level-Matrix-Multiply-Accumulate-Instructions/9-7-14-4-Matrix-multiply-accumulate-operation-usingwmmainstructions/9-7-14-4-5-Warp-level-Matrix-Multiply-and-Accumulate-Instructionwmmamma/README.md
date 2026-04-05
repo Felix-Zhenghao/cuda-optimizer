@@ -1,0 +1,1 @@
+Specifies wmma.mma instruction performing D = A * B + C across a warp. Covers syntax variants for f16, bf16, tf32, f64, integer (u8/s8), sub-byte (u4/s4), and single-bit (b1 with xor/and.popc modes); precision guarantees, rounding modifiers for f64, .satfinite saturation, and required SM targets.

@@ -1,0 +1,1 @@
+Describes supported data types for warp-level MMA: integer (u8/s8 with s32 accumulator), floating-point (f16, bf16, tf32, f64), alternate float formats (e4m3/e5m2/e3m2/e2m3/e2m1 with optional block scaling via ue8m0/ue4m3), sub-byte integer (u4/s4), and single-bit (b1).

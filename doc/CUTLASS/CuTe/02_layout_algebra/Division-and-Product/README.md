@@ -1,0 +1,1 @@
+Describes Layout division and product operations for tiling. Covers logical_divide, zipped/tiled/flat divide variants, logical_product, blocked and raked products, and zipped/tiled product variants with visual examples.

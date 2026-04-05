@@ -1,0 +1,1 @@
+Specifies per-thread fragment layouts for mma.m16n8k128 with b1 single-bit type. A held in two b32 registers (32 bits each); accumulator in four s32 registers. Provides row/column formulas for warp-level distribution of single-bit matrix elements.

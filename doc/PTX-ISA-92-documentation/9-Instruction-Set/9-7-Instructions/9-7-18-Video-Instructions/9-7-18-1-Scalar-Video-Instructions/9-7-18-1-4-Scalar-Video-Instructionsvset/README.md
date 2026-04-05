@@ -1,0 +1,1 @@
+The `vset` instruction performs scalar integer comparison of byte/half-word/word subword elements using comparison operators (eq, ne, lt, le, gt, ge), returning 0 or 1. Supports optional secondary arithmetic operation (add, min, max) or subword data merge. Requires `sm_20` or higher.

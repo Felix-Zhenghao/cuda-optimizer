@@ -1,0 +1,1 @@
+The `dp2a` instruction computes a two-way 16-bit-to-8-bit dot product accumulated into a 32-bit result. Operand `a` provides two packed 16-bit values, operand `b` provides four packed 8-bit values, and the `.lo`/`.hi` mode selects which two bytes of `b` to use. Requires sm_61 or higher.
