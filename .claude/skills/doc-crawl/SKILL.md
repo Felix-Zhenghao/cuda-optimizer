@@ -10,6 +10,12 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep
 
 Usage: `bash run.sh <url> [-o output_dir]`
 
+## Step 1.5: Chunk long docs into smaller docs
+
+If a leaf `doc.md` has more than 5000 words, split it into multiple smaller docs each under 5000 words. Split at semantically meaningful boundaries (e.g., between major headings or topic shifts) — don't split mid-paragraph or mid-section. Create a subdirectory for each chunk and convert the original leaf into a non-leaf parent with a README listing the chunks. Don't over-fragment: 2-3 chunks of ~3000 words is better than 5 chunks of ~1000 words.
+
+You should read through the long doc and determine the best way to split it. Remember to split images into each chunk's directory. Give meaningful and concise names to the chunked docs directories.
+
 # Step 2: Write README summary for each subsections
 
 Write README.md in each section and subsection as summary of that section. See "Principles of writing section summary" for more details.
